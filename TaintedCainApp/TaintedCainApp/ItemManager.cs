@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TaintedCainApp
+{
+    public class ItemManager
+    {
+        private List<Item> items;
+
+        public static void GenerateItems()
+        {
+
+        }
+    }
+}

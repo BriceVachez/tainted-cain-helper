@@ -196,6 +196,83 @@ namespace AppUnitTesting
         }
         #endregion
 
+        #region AddPickUp()
+        [TestMethod]
+        public void T_AddPickUp_NewPickUp()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.RedHeart, 4);
+            Recipe recipe = new Recipe(components);
+
+            recipe.AddPickUp(PickUp.BlackHeart);
+
+            Dictionary<PickUp, int> expectedComponents = new Dictionary<PickUp, int>();
+            expectedComponents.Add(PickUp.RedHeart, 4);
+            expectedComponents.Add(PickUp.BlackHeart, 1);
+
+            CollectionAssert.AreEquivalent(expectedComponents, recipe.Components);
+        }
+
+        [TestMethod]
+        public void T_AddPickUp_ExistingPickUp()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.Penny, 2);
+            components.Add(PickUp.Nickel, 3);
+            Recipe recipe = new Recipe(components);
+
+            recipe.AddPickUp(PickUp.Nickel);
+
+            Dictionary<PickUp, int> expectedComponents = new Dictionary<PickUp, int>();
+            expectedComponents.Add(PickUp.Penny, 2);
+            expectedComponents.Add(PickUp.Nickel, 4);
+
+            CollectionAssert.AreEquivalent(expectedComponents, recipe.Components);
+        }
+
+        [TestMethod]
+        public void T_AddPickUp_PreviouslyEmpty()
+        {
+            Recipe recipe = new Recipe();
+
+            recipe.AddPickUp(PickUp.GoldenKey);
+
+            Dictionary<PickUp, int> expectedComponents = new Dictionary<PickUp, int>();
+            expectedComponents.Add(PickUp.GoldenKey, 1);
+
+            CollectionAssert.AreEquivalent(expectedComponents, recipe.Components);
+        }
+        #endregion
+
+        #region CopyRecipe()
+        [TestMethod]
+        public void T_CopyRecipe()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.Penny, 4);
+            components.Add(PickUp.Bomb, 3);
+            components.Add(PickUp.Key, 1);
+            Recipe recipe = new Recipe(components);
+
+            Recipe copiedRecipe = recipe.CopyRecipe();
+            CollectionAssert.AreEquivalent(recipe.Components, copiedRecipe.Components);
+
+            recipe.AddPickUp(PickUp.Pill);
+            Dictionary<PickUp, int> expectedOriginalComponents = new Dictionary<PickUp, int>();
+            expectedOriginalComponents.Add(PickUp.Penny, 4);
+            expectedOriginalComponents.Add(PickUp.Bomb, 3);
+            expectedOriginalComponents.Add(PickUp.Key, 1);
+            expectedOriginalComponents.Add(PickUp.Pill, 1);
+            CollectionAssert.AreEquivalent(expectedOriginalComponents, recipe.Components);
+
+            Dictionary<PickUp, int> expectedCopyComponents = new Dictionary<PickUp, int>();
+            expectedCopyComponents.Add(PickUp.Penny, 4);
+            expectedCopyComponents.Add(PickUp.Bomb, 3);
+            expectedCopyComponents.Add(PickUp.Key, 1);
+            CollectionAssert.AreEquivalent(expectedCopyComponents, copiedRecipe.Components);
+        }
+        #endregion
+
         #region Non-test methods
         private String InputString(Dictionary<PickUp, int> input)
         {

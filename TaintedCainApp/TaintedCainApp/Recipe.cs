@@ -33,43 +33,51 @@ namespace TaintedCainApp
 
     public class Recipe
     {
+        #region Constants
         private const int PICKUPS_IN_RECIPE = 8;
+        #endregion
 
-        private Dictionary<PickUp, int> recipe;
+        #region Attributes
+        private Dictionary<PickUp, int> components;
+        public Dictionary<PickUp, int> Components { get => components; }
+        #endregion
 
+        #region Constructors
         public Recipe()
         {
-            recipe = new Dictionary<PickUp, int>();
+            components = new Dictionary<PickUp, int>();
         }
 
         public Recipe(Dictionary<PickUp, int> _recipe)
         {
-            recipe = new Dictionary<PickUp, int>();
+            components = new Dictionary<PickUp, int>();
             foreach(PickUp pickUp in _recipe.Keys)
             {
-                recipe.Add(pickUp, _recipe[pickUp]);
+                components.Add(pickUp, _recipe[pickUp]);
             }
         }
+        #endregion
+
+        #region Public methods
 
         public void AddPickUp(PickUp pickUp)
         {
-            recipe.TryGetValue(pickUp, out var occurences);
-            recipe[pickUp] = occurences;
+            components.TryGetValue(pickUp, out var occurences);
+            components[pickUp] = occurences + 1;
         }
 
         public Recipe CopyRecipe()
         {
-            return new Recipe(this.recipe);
+            return new Recipe(this.components);
         }
 
         public bool IsValid()
         {
             int numberOfPickUps = 0;
-            foreach(KeyValuePair<PickUp, int> component in recipe)
+            foreach(KeyValuePair<PickUp, int> component in components)
             {
                 numberOfPickUps += component.Value;
             }
-
             return numberOfPickUps == PICKUPS_IN_RECIPE;
         }
 
@@ -79,11 +87,10 @@ namespace TaintedCainApp
             {
                 return false;
             }
-            int occurencesInInput = 0;
-            foreach (PickUp pickUp in recipe.Keys)
+            foreach (PickUp pickUp in components.Keys)
             {
-                pickUps.TryGetValue(pickUp, out occurencesInInput);
-                if (occurencesInInput < recipe[pickUp])
+                pickUps.TryGetValue(pickUp, out int occurencesInInput);
+                if (occurencesInInput < components[pickUp])
                 {
                     return false;
                 }
@@ -91,10 +98,13 @@ namespace TaintedCainApp
             return true;
         }
 
+        #endregion
+
+        #region Override
         public override string ToString()
         {
             StringBuilder recipeString = new StringBuilder();
-            foreach(KeyValuePair<PickUp, int> component in recipe)
+            foreach(KeyValuePair<PickUp, int> component in components)
             {
                 recipeString.Append(Enum.GetName(typeof(PickUp), component.Key) +
                     " : " +
@@ -102,6 +112,7 @@ namespace TaintedCainApp
             }
             return recipeString.ToString();
         }
+        #endregion
     }
 
 }

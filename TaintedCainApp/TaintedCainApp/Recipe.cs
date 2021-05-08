@@ -16,7 +16,7 @@ namespace TaintedCainApp
         BoneHeart = 6,
         RottenHeart = 7,
         Penny = 8,
-        Nicked = 9,
+        Nickel = 9,
         Dime = 10,
         LuckyPenny = 11,
         Key = 12,
@@ -75,6 +75,10 @@ namespace TaintedCainApp
 
         public bool IsRecipeFeasible(Dictionary<PickUp, int> pickUps)
         {
+            if(pickUps == null)
+            {
+                return false;
+            }
             int occurencesInInput = 0;
             foreach (PickUp pickUp in recipe.Keys)
             {
@@ -92,7 +96,9 @@ namespace TaintedCainApp
             StringBuilder recipeString = new StringBuilder();
             foreach(KeyValuePair<PickUp, int> component in recipe)
             {
-                recipeString.Append(Enum.GetName(typeof(PickUp), component.Key) + " : " + component.Value);
+                recipeString.Append(Enum.GetName(typeof(PickUp), component.Key) +
+                    " : " +
+                    component.Value.ToString());
             }
             return recipeString.ToString();
         }

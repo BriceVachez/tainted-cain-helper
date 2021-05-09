@@ -108,7 +108,8 @@ namespace TaintedCainApp
             {
                 recipeString.Append(Enum.GetName(typeof(PickUp), component.Key) +
                     " : " +
-                    component.Value.ToString());
+                    component.Value.ToString() +
+                    "\n");
             }
             return recipeString.ToString();
         }

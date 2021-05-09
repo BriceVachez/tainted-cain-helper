@@ -30,5 +30,18 @@ namespace TaintedCainApp
             recipes.Add(_newRecipe);
         }
         #endregion
+
+        #region Override
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder("Name : " + name + "\nRecipes : {\n");
+            foreach(Recipe recipe in recipes)
+            {
+                sb.Append(recipe.ToString() + " ----\n");
+            }
+            sb.Append("}");
+            return sb.ToString();
+        }
+        #endregion
     }
 }

@@ -16,12 +16,8 @@ namespace TaintedCainApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            DataUpdater.GenerateItemsFromWiki();
-            ItemManager.ReadItemsFromFile();
-            ItemManager.DisplayAllItems();
             
-            Application.Run(new MainWindow());
+            Application.Run(new MainMenu());
         }
     }
 }

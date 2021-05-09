@@ -11,7 +11,15 @@ namespace TaintedCainApp
 
         public static void ReadItemsFromFile()
         {
-            String json = File.ReadAllText("../../../../data/items.json");
+            String json = String.Empty;
+            try
+            {
+                json = File.ReadAllText("../../../../data/items.json");
+            } catch(Exception e)
+            {
+                Console.WriteLine("No item file.");
+                return;
+            }
 
             dynamic result = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
 
@@ -43,6 +51,33 @@ namespace TaintedCainApp
             {
                 Console.WriteLine(item.ToString());
             }
+        }
+
+        public static int GetTotalNumberOfItems()
+        {
+            String json = String.Empty;
+            try
+            {
+                json = File.ReadAllText("../../../../data/items.json");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("No item file.");
+                return 0;
+            }
+
+            dynamic result = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+            int itemCount = 0;
+            foreach(var item in result)
+            {
+                itemCount++;
+            }
+            return itemCount;
+        }
+
+        public static int GetCurrentNumberOfItems()
+        {
+            return items.Count;
         }
     }
 }

@@ -8,26 +8,33 @@ namespace TaintedCainApp
 {
     public class Item
     {
+        #region Attributes
         private String name;
         public String Name { get => name; set => name = value; }
 
         private List<Recipe> recipes;
+        public List<Recipe> Recipes { get => recipes; }
+        #endregion
 
-        public Item(String _name, List<Recipe> _recipes)
+        #region Constructors
+        internal Item(String _name, List<Recipe> _recipes)
         {
             name = _name;
             recipes = _recipes;
         }
 
-        public Item(String _name)
+        internal Item(String _name)
         {
             name = _name;
             recipes = new List<Recipe>();
         }
+        #endregion
 
+        #region Public Methods
         public void AddRecipe(Recipe _newRecipe)
         {
             recipes.Add(_newRecipe);
         }
+        #endregion
     }
 }

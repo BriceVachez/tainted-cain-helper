@@ -22,12 +22,6 @@ namespace TaintedCainApp
             name = _name;
             recipes = _recipes;
         }
-
-        internal Item(String _name)
-        {
-            name = _name;
-            recipes = new List<Recipe>();
-        }
         #endregion
 
         #region Public Methods

@@ -273,6 +273,23 @@ namespace AppUnitTesting
         }
         #endregion
 
+        #region Attribute Components
+        [TestMethod]
+        public void T_AttributeComponents_Getter()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.Penny, 2);
+            components.Add(PickUp.Nickel, 3);
+            Recipe recipe = new Recipe(components);
+
+            Dictionary<PickUp, int> expectedComponents = new Dictionary<PickUp, int>();
+            expectedComponents.Add(PickUp.Penny, 2);
+            expectedComponents.Add(PickUp.Nickel, 3);
+
+            CollectionAssert.AreEquivalent(expectedComponents, recipe.Components);
+        }
+        #endregion
+
         #region Non-test methods
         private String InputString(Dictionary<PickUp, int> input)
         {

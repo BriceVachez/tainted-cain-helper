@@ -26,10 +26,12 @@ namespace TaintedCainApp
             GenerateItemFile(items);
         }
 
-        private static void GenerateItemFile(List<Item> items)
+        private static void GenerateItemFile(
+            List<Item> items, 
+            String path = "../../../../data/items.json")
         {
             String json = JsonConvert.SerializeObject(items, Formatting.Indented);
-            File.WriteAllText("../../../../data/items.json", json);
+            File.WriteAllText(path, json);
         }
     }
 }

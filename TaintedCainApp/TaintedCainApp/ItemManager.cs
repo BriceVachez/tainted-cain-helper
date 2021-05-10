@@ -9,17 +9,17 @@ namespace TaintedCainApp
     {
         private static List<Item> items = new List<Item>();
 
-        public static void ReadItemsFromFile()
+        public static void ReadItemsFromFile(String path = "../../../../data/items.json")
         {
             String json;
             try
             {
-                json = File.ReadAllText("../../../../data/items.json");
+                json = File.ReadAllText(path);
             }
             catch (Exception e)
             {
                 Console.WriteLine("No item file.");
-                return;
+                throw(e);
             }
 
             dynamic result = JsonConvert.DeserializeObject(json);
@@ -57,12 +57,12 @@ namespace TaintedCainApp
             }
         }
 
-        public static int GetTotalNumberOfItems()
+        public static int GetTotalNumberOfItems(String path = "../../../../data/items.json")
         {
             String json;
             try
             {
-                json = File.ReadAllText("../../../../data/items.json");
+                json = File.ReadAllText(path);
             }
             catch (Exception)
             {
@@ -82,6 +82,13 @@ namespace TaintedCainApp
         public static int GetCurrentNumberOfItems()
         {
             return items.Count;
+        }
+
+        public static int RemoveItems()
+        {
+            int removed = items.Count;
+            items.Clear();
+            return removed;
         }
     }
 }

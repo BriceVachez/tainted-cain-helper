@@ -54,12 +54,12 @@ namespace TaintedCainApp
             sb.Append("Id : " + itemId.ToString() + "\n");
             sb.Append("Quality : " + quality.ToString() + "\n");
             sb.Append("IsActive : " + isActiveItem.ToString() + "\n");
-            sb.Append("Recipes :\n");
+            sb.Append("Recipes :\n{");
             foreach (Recipe recipe in recipes)
             {
-                sb.Append(recipe.ToString() + " ----\n");
+                sb.Append("\n" + recipe.ToString() + " ----");
             }
-            sb.Append("}");
+            sb.Append("\n}");
             return sb.ToString();
         }
         #endregion

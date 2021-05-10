@@ -7,7 +7,6 @@ using TaintedCainApp;
 namespace AppUnitTesting
 {
     [TestClass]
-
     public class ItemFactoryTests
     {
         #region CreateItem()
@@ -68,6 +67,22 @@ namespace AppUnitTesting
             List<Recipe> recipes = new List<Recipe> { recipe };
 
             ItemFactory.CreateItem("foo", 1, 0, false, recipes);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),
+            "The parameter _quality must be between 0 and 4. Found : 5")]
+        public void T_CreateItem_InvalidQuality()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.BoneHeart, 2);
+            components.Add(PickUp.RedHeart, 2);
+            components.Add(PickUp.SoulHeart, 2);
+            Recipe recipe = new Recipe(components);
+
+            List<Recipe> recipes = new List<Recipe> { recipe };
+
+            ItemFactory.CreateItem("foo", 1, 5, false, recipes);
         }
 
         [TestMethod]

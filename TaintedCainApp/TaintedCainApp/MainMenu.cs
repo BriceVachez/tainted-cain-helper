@@ -67,12 +67,13 @@ namespace TaintedCainApp
         {
             while(state == State.LoadingDataState)
             {
-                Thread.Sleep(500);
+                Thread.Sleep(150);
                 UpdateLabel("Items loaded : " +
                     ItemManager.GetCurrentNumberOfItems().ToString() +
                     "/" +
                     numberOfItems.ToString());
             }
+            ItemManager.DisplayAllItems();
         }
 
         private void UpdateLabel(String newText)

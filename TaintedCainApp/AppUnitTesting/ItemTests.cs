@@ -14,7 +14,7 @@ namespace AppUnitTesting
         [TestMethod]
         public void T_AddRecipe()
         {
-            Item item = ItemFactory.CreateItem("Sad Onion", new List<Recipe>());
+            Item item = ItemFactory.CreateItem("Sad Onion", 1, 2, false, new List<Recipe>());
 
             Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
             components.Add(PickUp.RedHeart, 4);
@@ -35,7 +35,7 @@ namespace AppUnitTesting
         [TestMethod]
         public void T_AttributeName_Getter()
         {
-            Item item = ItemFactory.CreateItem("Sad Onion", new List<Recipe>());
+            Item item = ItemFactory.CreateItem("Sad Onion", 1, 3, false, new List<Recipe>());
 
             String expectedName = "Sad Onion";
 
@@ -44,7 +44,7 @@ namespace AppUnitTesting
         [TestMethod]
         public void T_AttributeName_Setter()
         {
-            Item item = ItemFactory.CreateItem("Sad Onion", new List<Recipe>());
+            Item item = ItemFactory.CreateItem("Sad Onion", 1, 4, false, new List<Recipe>());
             item.Name = "Dr. Fetus";
 
             String expectedName = "Dr. Fetus";

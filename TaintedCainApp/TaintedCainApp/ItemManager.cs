@@ -11,21 +11,25 @@ namespace TaintedCainApp
 
         public static void ReadItemsFromFile()
         {
-            String json = String.Empty;
+            String json;
             try
             {
                 json = File.ReadAllText("../../../../data/items.json");
-            } catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine("No item file.");
                 return;
             }
 
-            dynamic result = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+            dynamic result = JsonConvert.DeserializeObject(json);
 
             foreach (var item in result)
             {
                 String name = item.Name;
+                int id = item.ItemId;
+                int quality = item.Quality;
+                bool active = item.IsActiveItem;
                 List<Recipe> recipes = new List<Recipe>();
                 foreach (var recipe in item.Recipes)
                 {
@@ -41,7 +45,7 @@ namespace TaintedCainApp
                     }
                     recipes.Add(new Recipe(components));
                 }
-                items.Add(ItemFactory.CreateItem(name, recipes));
+                items.Add(ItemFactory.CreateItem(name, id, quality, active, recipes));
             }
         }
 
@@ -55,20 +59,20 @@ namespace TaintedCainApp
 
         public static int GetTotalNumberOfItems()
         {
-            String json = String.Empty;
+            String json;
             try
             {
                 json = File.ReadAllText("../../../../data/items.json");
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("No item file.");
                 return 0;
             }
 
-            dynamic result = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+            dynamic result = JsonConvert.DeserializeObject(json);
             int itemCount = 0;
-            foreach(var item in result)
+            foreach (var item in result)
             {
                 itemCount++;
             }

@@ -1,6 +1,9 @@
 [
   {
     "Name": "The Sad Onion",
+    "ItemId": 1,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -99,6 +102,9 @@
   },
   {
     "Name": "The Inner Eye",
+    "ItemId": 2,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -188,6 +194,9 @@
   },
   {
     "Name": "Spoon Bender",
+    "ItemId": 3,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -278,6 +287,9 @@
   },
   {
     "Name": "Cricket's Head",
+    "ItemId": 4,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -374,6 +386,9 @@
   },
   {
     "Name": "My Reflection",
+    "ItemId": 5,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -466,6 +481,9 @@
   },
   {
     "Name": "Number One",
+    "ItemId": 6,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -555,6 +573,9 @@
   },
   {
     "Name": "Blood of the Martyr",
+    "ItemId": 7,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -654,6 +675,9 @@
   },
   {
     "Name": "Brother Bobby",
+    "ItemId": 8,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -743,6 +767,9 @@
   },
   {
     "Name": "Halo of Flies",
+    "ItemId": 10,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -832,6 +859,9 @@
   },
   {
     "Name": "1up!",
+    "ItemId": 11,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -934,6 +964,9 @@
   },
   {
     "Name": "Magic Mushroom",
+    "ItemId": 12,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -1032,6 +1065,9 @@
   },
   {
     "Name": "The Virus",
+    "ItemId": 13,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -1125,6 +1161,9 @@
   },
   {
     "Name": "Roid Rage",
+    "ItemId": 14,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -1210,6 +1249,9 @@
   },
   {
     "Name": "&lt;3",
+    "ItemId": 15,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -1292,6 +1334,9 @@
   },
   {
     "Name": "Raw Liver",
+    "ItemId": 16,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -1386,6 +1431,9 @@
   },
   {
     "Name": "Skeleton Key",
+    "ItemId": 17,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -1484,6 +1532,9 @@
   },
   {
     "Name": "Boom!",
+    "ItemId": 19,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -1580,6 +1631,9 @@
   },
   {
     "Name": "Transcendence",
+    "ItemId": 20,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -1683,6 +1737,9 @@
   },
   {
     "Name": "The Compass",
+    "ItemId": 21,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -1772,6 +1829,9 @@
   },
   {
     "Name": "Lunch",
+    "ItemId": 22,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -1855,6 +1915,9 @@
   },
   {
     "Name": "Dinner",
+    "ItemId": 23,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -1947,6 +2010,9 @@
   },
   {
     "Name": "Dessert",
+    "ItemId": 24,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2034,6 +2100,9 @@
   },
   {
     "Name": "Breakfast",
+    "ItemId": 25,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2123,6 +2192,9 @@
   },
   {
     "Name": "Rotten Meat",
+    "ItemId": 26,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2206,6 +2278,9 @@
   },
   {
     "Name": "Wooden Spoon",
+    "ItemId": 27,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2293,6 +2368,9 @@
   },
   {
     "Name": "The Belt",
+    "ItemId": 28,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -2383,6 +2461,9 @@
   },
   {
     "Name": "Mom's Underwear",
+    "ItemId": 29,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2475,6 +2556,9 @@
   },
   {
     "Name": "Mom's Heels",
+    "ItemId": 30,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2563,6 +2647,9 @@
   },
   {
     "Name": "Mom's Lipstick",
+    "ItemId": 31,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -2649,6 +2736,9 @@
   },
   {
     "Name": "Wire Coat Hanger",
+    "ItemId": 32,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -2740,6 +2830,9 @@
   },
   {
     "Name": "Lucky Foot",
+    "ItemId": 46,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -2827,6 +2920,9 @@
   },
   {
     "Name": "Cupid's Arrow",
+    "ItemId": 48,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -2926,6 +3022,9 @@
   },
   {
     "Name": "Pentagram",
+    "ItemId": 51,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -3015,6 +3114,9 @@
   },
   {
     "Name": "Dr. Fetus",
+    "ItemId": 52,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -3108,6 +3210,9 @@
   },
   {
     "Name": "Magneto",
+    "ItemId": 53,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -3198,6 +3303,9 @@
   },
   {
     "Name": "Treasure Map",
+    "ItemId": 54,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -3287,6 +3395,9 @@
   },
   {
     "Name": "Mom's Eye",
+    "ItemId": 55,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -3382,6 +3493,9 @@
   },
   {
     "Name": "Distant Admiration",
+    "ItemId": 57,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -3468,6 +3582,9 @@
   },
   {
     "Name": "The Ladder",
+    "ItemId": 60,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -3558,6 +3675,9 @@
   },
   {
     "Name": "Charm of the Vampire",
+    "ItemId": 62,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -3642,6 +3762,9 @@
   },
   {
     "Name": "The Battery",
+    "ItemId": 63,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -3731,6 +3854,9 @@
   },
   {
     "Name": "Steam Sale",
+    "ItemId": 64,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -3823,6 +3949,9 @@
   },
   {
     "Name": "Sister Maggy",
+    "ItemId": 67,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -3908,6 +4037,9 @@
   },
   {
     "Name": "Technology",
+    "ItemId": 68,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -3997,6 +4129,9 @@
   },
   {
     "Name": "Chocolate Milk",
+    "ItemId": 69,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4085,6 +4220,9 @@
   },
   {
     "Name": "Growth Hormones",
+    "ItemId": 70,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4176,6 +4314,9 @@
   },
   {
     "Name": "Mini Mush",
+    "ItemId": 71,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -4261,6 +4402,9 @@
   },
   {
     "Name": "Rosary",
+    "ItemId": 72,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -4348,6 +4492,9 @@
   },
   {
     "Name": "A Quarter",
+    "ItemId": 74,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -4437,6 +4584,9 @@
   },
   {
     "Name": "PHD",
+    "ItemId": 75,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -4520,6 +4670,9 @@
   },
   {
     "Name": "X-Ray Vision",
+    "ItemId": 76,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -4608,6 +4761,9 @@
   },
   {
     "Name": "The Mark",
+    "ItemId": 79,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4709,6 +4865,9 @@
   },
   {
     "Name": "The Pact",
+    "ItemId": 80,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4805,6 +4964,9 @@
   },
   {
     "Name": "Dead Cat",
+    "ItemId": 81,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4898,6 +5060,9 @@
   },
   {
     "Name": "Lord of the Pit",
+    "ItemId": 82,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -4999,6 +5164,9 @@
   },
   {
     "Name": "Loki's Horns",
+    "ItemId": 87,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -5090,6 +5258,9 @@
   },
   {
     "Name": "Little Chubby",
+    "ItemId": 88,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -5178,6 +5349,9 @@
   },
   {
     "Name": "Spider Bite",
+    "ItemId": 89,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -5270,6 +5444,9 @@
   },
   {
     "Name": "Spelunker Hat",
+    "ItemId": 91,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -5363,6 +5540,9 @@
   },
   {
     "Name": "Super Bandage",
+    "ItemId": 92,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -5448,6 +5628,9 @@
   },
   {
     "Name": "Sack of Pennies",
+    "ItemId": 94,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -5535,6 +5718,9 @@
   },
   {
     "Name": "Robo-Baby",
+    "ItemId": 95,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -5624,6 +5810,9 @@
   },
   {
     "Name": "Little C.H.A.D.",
+    "ItemId": 96,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -5714,6 +5903,9 @@
   },
   {
     "Name": "The Relic",
+    "ItemId": 98,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -5810,6 +6002,9 @@
   },
   {
     "Name": "Little Gish",
+    "ItemId": 99,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -5902,6 +6097,9 @@
   },
   {
     "Name": "Little Steven",
+    "ItemId": 100,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -5987,6 +6185,9 @@
   },
   {
     "Name": "The Halo",
+    "ItemId": 101,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6072,6 +6273,9 @@
   },
   {
     "Name": "The Common Cold",
+    "ItemId": 103,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -6159,6 +6363,9 @@
   },
   {
     "Name": "The Parasite",
+    "ItemId": 104,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6245,6 +6452,9 @@
   },
   {
     "Name": "Mr. Mega",
+    "ItemId": 106,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6330,6 +6540,9 @@
   },
   {
     "Name": "The Wafer",
+    "ItemId": 108,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -6427,6 +6640,9 @@
   },
   {
     "Name": "Money = Power",
+    "ItemId": 109,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -6518,6 +6734,9 @@
   },
   {
     "Name": "Mom's Contacts",
+    "ItemId": 110,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -6605,6 +6824,9 @@
   },
   {
     "Name": "Guardian Angel",
+    "ItemId": 112,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6701,6 +6923,9 @@
   },
   {
     "Name": "Demon Baby",
+    "ItemId": 113,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6786,6 +7011,9 @@
   },
   {
     "Name": "Mom's Knife",
+    "ItemId": 114,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -6878,6 +7106,9 @@
   },
   {
     "Name": "Ouija Board",
+    "ItemId": 115,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -6970,6 +7201,9 @@
   },
   {
     "Name": "9 Volt",
+    "ItemId": 116,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7058,6 +7292,9 @@
   },
   {
     "Name": "Dead Bird",
+    "ItemId": 117,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -7146,6 +7383,9 @@
   },
   {
     "Name": "Brimstone",
+    "ItemId": 118,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -7248,6 +7488,9 @@
   },
   {
     "Name": "Odd Mushroom",
+    "ItemId": 120,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -7341,6 +7584,9 @@
   },
   {
     "Name": "Odd Mushroom",
+    "ItemId": 121,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7431,6 +7677,9 @@
   },
   {
     "Name": "Whore of Babylon",
+    "ItemId": 122,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7527,6 +7776,9 @@
   },
   {
     "Name": "Bobby-Bomb",
+    "ItemId": 125,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7617,6 +7869,9 @@
   },
   {
     "Name": "Forever Alone",
+    "ItemId": 128,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -7707,6 +7962,9 @@
   },
   {
     "Name": "Bucket of Lard",
+    "ItemId": 129,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -7795,6 +8053,9 @@
   },
   {
     "Name": "Bomb Bag",
+    "ItemId": 131,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7883,6 +8144,9 @@
   },
   {
     "Name": "Guppy's Tail",
+    "ItemId": 134,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -7968,6 +8232,9 @@
   },
   {
     "Name": "Stigmata",
+    "ItemId": 138,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -8050,6 +8317,9 @@
   },
   {
     "Name": "Mom's Purse",
+    "ItemId": 139,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -8141,6 +8411,9 @@
   },
   {
     "Name": "Bob's Curse",
+    "ItemId": 140,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -8229,6 +8502,9 @@
   },
   {
     "Name": "Pageant Boy",
+    "ItemId": 141,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -8318,6 +8594,9 @@
   },
   {
     "Name": "Scapular",
+    "ItemId": 142,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -8406,6 +8685,9 @@
   },
   {
     "Name": "Speed Ball",
+    "ItemId": 143,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -8491,6 +8773,9 @@
   },
   {
     "Name": "Bum Friend",
+    "ItemId": 144,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -8580,6 +8865,9 @@
   },
   {
     "Name": "Infestation",
+    "ItemId": 148,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -8667,6 +8955,9 @@
   },
   {
     "Name": "Ipecac",
+    "ItemId": 149,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -8763,6 +9054,9 @@
   },
   {
     "Name": "Tough Love",
+    "ItemId": 150,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -8855,6 +9149,9 @@
   },
   {
     "Name": "The Mulligan",
+    "ItemId": 151,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -8952,6 +9249,9 @@
   },
   {
     "Name": "Technology 2",
+    "ItemId": 152,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -9038,6 +9338,9 @@
   },
   {
     "Name": "Mutant Spider",
+    "ItemId": 153,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -9131,6 +9434,9 @@
   },
   {
     "Name": "Chemical Peel",
+    "ItemId": 154,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -9216,6 +9522,9 @@
   },
   {
     "Name": "The Peeper",
+    "ItemId": 155,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -9303,6 +9612,9 @@
   },
   {
     "Name": "Habit",
+    "ItemId": 156,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -9395,6 +9707,9 @@
   },
   {
     "Name": "Bloody Lust",
+    "ItemId": 157,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -9483,6 +9798,9 @@
   },
   {
     "Name": "Spirit of the Night",
+    "ItemId": 159,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -9583,6 +9901,9 @@
   },
   {
     "Name": "Ankh",
+    "ItemId": 161,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -9665,6 +9986,9 @@
   },
   {
     "Name": "Celtic Cross",
+    "ItemId": 162,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -9759,6 +10083,9 @@
   },
   {
     "Name": "Ghost Baby",
+    "ItemId": 163,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -9845,6 +10172,9 @@
   },
   {
     "Name": "Cat-O-Nine-Tails",
+    "ItemId": 165,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -9935,6 +10265,9 @@
   },
   {
     "Name": "Harlequin Baby",
+    "ItemId": 167,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -10027,6 +10360,9 @@
   },
   {
     "Name": "Epic Fetus",
+    "ItemId": 168,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -10129,6 +10465,9 @@
   },
   {
     "Name": "Polyphemus",
+    "ItemId": 169,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -10219,6 +10558,9 @@
   },
   {
     "Name": "Daddy Longlegs",
+    "ItemId": 170,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -10309,6 +10651,9 @@
   },
   {
     "Name": "Sacrificial Dagger",
+    "ItemId": 172,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -10403,6 +10748,9 @@
   },
   {
     "Name": "Mitre",
+    "ItemId": 173,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -10498,6 +10846,9 @@
   },
   {
     "Name": "Rainbow Baby",
+    "ItemId": 174,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -10590,6 +10941,9 @@
   },
   {
     "Name": "Stem Cells",
+    "ItemId": 176,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -10678,6 +11032,9 @@
   },
   {
     "Name": "Holy Water",
+    "ItemId": 178,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -10765,6 +11122,9 @@
   },
   {
     "Name": "Fate",
+    "ItemId": 179,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -10861,6 +11221,9 @@
   },
   {
     "Name": "The Black Bean",
+    "ItemId": 180,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -10952,6 +11315,9 @@
   },
   {
     "Name": "Sacred Heart",
+    "ItemId": 182,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -11044,6 +11410,9 @@
   },
   {
     "Name": "Toothpicks",
+    "ItemId": 183,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -11132,6 +11501,9 @@
   },
   {
     "Name": "Holy Grail",
+    "ItemId": 184,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -11232,6 +11604,9 @@
   },
   {
     "Name": "Dead Dove",
+    "ItemId": 185,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -11330,6 +11705,9 @@
   },
   {
     "Name": "Guppy's Hair Ball",
+    "ItemId": 187,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -11420,6 +11798,9 @@
   },
   {
     "Name": "Abel",
+    "ItemId": 188,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -11504,6 +11885,9 @@
   },
   {
     "Name": "SMB Super Fan",
+    "ItemId": 189,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -11602,6 +11986,9 @@
   },
   {
     "Name": "Pyro",
+    "ItemId": 190,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -11704,6 +12091,9 @@
   },
   {
     "Name": "3 Dollar Bill",
+    "ItemId": 191,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -11796,6 +12186,9 @@
   },
   {
     "Name": "MEAT!",
+    "ItemId": 193,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -11889,6 +12282,9 @@
   },
   {
     "Name": "Magic 8 Ball",
+    "ItemId": 194,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -11976,6 +12372,9 @@
   },
   {
     "Name": "Mom's Coin Purse",
+    "ItemId": 195,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -12058,6 +12457,9 @@
   },
   {
     "Name": "Squeezy",
+    "ItemId": 196,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -12146,6 +12548,9 @@
   },
   {
     "Name": "Jesus Juice",
+    "ItemId": 197,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -12232,6 +12637,9 @@
   },
   {
     "Name": "Box",
+    "ItemId": 198,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -12315,6 +12723,9 @@
   },
   {
     "Name": "Mom's Key",
+    "ItemId": 199,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -12404,6 +12815,9 @@
   },
   {
     "Name": "Mom's Eyeshadow",
+    "ItemId": 200,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -12495,6 +12909,9 @@
   },
   {
     "Name": "Iron Bar",
+    "ItemId": 201,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -12589,6 +13006,9 @@
   },
   {
     "Name": "Midas' Touch",
+    "ItemId": 202,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -12676,6 +13096,9 @@
   },
   {
     "Name": "Humbling Bundle",
+    "ItemId": 203,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -12767,6 +13190,9 @@
   },
   {
     "Name": "Fanny Pack",
+    "ItemId": 204,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -12855,6 +13281,9 @@
   },
   {
     "Name": "Sharp Plug",
+    "ItemId": 205,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -12940,6 +13369,9 @@
   },
   {
     "Name": "Guillotine",
+    "ItemId": 206,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -13036,6 +13468,9 @@
   },
   {
     "Name": "Champion Belt",
+    "ItemId": 208,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -13123,6 +13558,9 @@
   },
   {
     "Name": "Butt Bombs",
+    "ItemId": 209,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -13204,6 +13642,9 @@
   },
   {
     "Name": "Gnawed Leaf",
+    "ItemId": 210,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -13291,6 +13732,9 @@
   },
   {
     "Name": "Spiderbaby",
+    "ItemId": 211,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -13378,6 +13822,9 @@
   },
   {
     "Name": "Guppy's Collar",
+    "ItemId": 212,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -13464,6 +13911,9 @@
   },
   {
     "Name": "Lost Contact",
+    "ItemId": 213,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -13559,6 +14009,9 @@
   },
   {
     "Name": "Anemic",
+    "ItemId": 214,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -13649,6 +14102,9 @@
   },
   {
     "Name": "Goat Head",
+    "ItemId": 215,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -13751,6 +14207,9 @@
   },
   {
     "Name": "Ceremonial Robes",
+    "ItemId": 216,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -13854,6 +14313,9 @@
   },
   {
     "Name": "Mom's Wig",
+    "ItemId": 217,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -13944,6 +14406,9 @@
   },
   {
     "Name": "Placenta",
+    "ItemId": 218,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -14035,6 +14500,9 @@
   },
   {
     "Name": "Old Bandage",
+    "ItemId": 219,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -14127,6 +14595,9 @@
   },
   {
     "Name": "Sad Bombs",
+    "ItemId": 220,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -14216,6 +14687,9 @@
   },
   {
     "Name": "Rubber Cement",
+    "ItemId": 221,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -14318,6 +14792,9 @@
   },
   {
     "Name": "Anti-Gravity",
+    "ItemId": 222,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -14408,6 +14885,9 @@
   },
   {
     "Name": "Pyromaniac",
+    "ItemId": 223,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -14504,6 +14984,9 @@
   },
   {
     "Name": "Cricket's Body",
+    "ItemId": 224,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -14599,6 +15082,9 @@
   },
   {
     "Name": "Gimpy",
+    "ItemId": 225,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -14685,6 +15171,9 @@
   },
   {
     "Name": "Black Lotus",
+    "ItemId": 226,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -14785,6 +15274,9 @@
   },
   {
     "Name": "Piggy Bank",
+    "ItemId": 227,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -14872,6 +15364,9 @@
   },
   {
     "Name": "Mom's Perfume",
+    "ItemId": 228,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -14958,6 +15453,9 @@
   },
   {
     "Name": "Monstro's Lung",
+    "ItemId": 229,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -15045,6 +15543,9 @@
   },
   {
     "Name": "Abaddon",
+    "ItemId": 230,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -15145,6 +15646,9 @@
   },
   {
     "Name": "Ball of Tar",
+    "ItemId": 231,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -15241,6 +15745,9 @@
   },
   {
     "Name": "Stop Watch",
+    "ItemId": 232,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -15335,6 +15842,9 @@
   },
   {
     "Name": "Tiny Planet",
+    "ItemId": 233,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -15419,6 +15929,9 @@
   },
   {
     "Name": "Infestation 2",
+    "ItemId": 234,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -15511,6 +16024,9 @@
   },
   {
     "Name": "E Coli",
+    "ItemId": 236,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -15597,6 +16113,9 @@
   },
   {
     "Name": "Death's Touch",
+    "ItemId": 237,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -15689,6 +16208,9 @@
   },
   {
     "Name": "Experimental Treatment",
+    "ItemId": 240,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -15771,6 +16293,9 @@
   },
   {
     "Name": "Contract From Below",
+    "ItemId": 241,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -15866,6 +16391,9 @@
   },
   {
     "Name": "Infamy",
+    "ItemId": 242,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -15953,6 +16481,9 @@
   },
   {
     "Name": "Trinity Shield",
+    "ItemId": 243,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -16055,6 +16586,9 @@
   },
   {
     "Name": "Tech.5",
+    "ItemId": 244,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -16150,6 +16684,9 @@
   },
   {
     "Name": "20/20",
+    "ItemId": 245,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -16251,6 +16788,9 @@
   },
   {
     "Name": "Blue Map",
+    "ItemId": 246,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -16339,6 +16879,9 @@
   },
   {
     "Name": "BFFS!",
+    "ItemId": 247,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -16429,6 +16972,9 @@
   },
   {
     "Name": "Hive Mind",
+    "ItemId": 248,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -16514,6 +17060,9 @@
   },
   {
     "Name": "There's Options",
+    "ItemId": 249,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -16606,6 +17155,9 @@
   },
   {
     "Name": "Bogo Bombs",
+    "ItemId": 250,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -16692,6 +17244,9 @@
   },
   {
     "Name": "Starter Deck",
+    "ItemId": 251,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -16776,6 +17331,9 @@
   },
   {
     "Name": "Little Baggy",
+    "ItemId": 252,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -16864,6 +17422,9 @@
   },
   {
     "Name": "Magic Scab",
+    "ItemId": 253,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -16954,6 +17515,9 @@
   },
   {
     "Name": "Blood Clot",
+    "ItemId": 254,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -17044,6 +17608,9 @@
   },
   {
     "Name": "Screw",
+    "ItemId": 255,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -17130,6 +17697,9 @@
   },
   {
     "Name": "Hot Bombs",
+    "ItemId": 256,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -17211,6 +17781,9 @@
   },
   {
     "Name": "Fire Mind",
+    "ItemId": 257,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -17299,6 +17872,9 @@
   },
   {
     "Name": "Missing No.",
+    "ItemId": 258,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -17391,6 +17967,9 @@
   },
   {
     "Name": "Dark Matter",
+    "ItemId": 259,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -17496,6 +18075,9 @@
   },
   {
     "Name": "Black Candle",
+    "ItemId": 260,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -17584,6 +18166,9 @@
   },
   {
     "Name": "Proptosis",
+    "ItemId": 261,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -17674,6 +18259,9 @@
   },
   {
     "Name": "Missing Page 2",
+    "ItemId": 262,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -17767,6 +18355,9 @@
   },
   {
     "Name": "Smart Fly",
+    "ItemId": 264,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -17866,6 +18457,9 @@
   },
   {
     "Name": "Dry Baby",
+    "ItemId": 265,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -17954,6 +18548,9 @@
   },
   {
     "Name": "Juicy Sack",
+    "ItemId": 266,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -18041,6 +18638,9 @@
   },
   {
     "Name": "Robo-Baby 2.0",
+    "ItemId": 267,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -18132,6 +18732,9 @@
   },
   {
     "Name": "Rotten Baby",
+    "ItemId": 268,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -18221,6 +18824,9 @@
   },
   {
     "Name": "Headless Baby",
+    "ItemId": 269,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -18308,6 +18914,9 @@
   },
   {
     "Name": "Leech",
+    "ItemId": 270,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -18398,6 +19007,9 @@
   },
   {
     "Name": "Mystery Sack",
+    "ItemId": 271,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -18484,6 +19096,9 @@
   },
   {
     "Name": "BBF",
+    "ItemId": 272,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -18569,6 +19184,9 @@
   },
   {
     "Name": "Bob's Brain",
+    "ItemId": 273,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -18663,6 +19281,9 @@
   },
   {
     "Name": "Best Bud",
+    "ItemId": 274,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -18753,6 +19374,9 @@
   },
   {
     "Name": "Lil Brimstone",
+    "ItemId": 275,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -18844,6 +19468,9 @@
   },
   {
     "Name": "Isaac's Heart",
+    "ItemId": 276,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -18931,6 +19558,9 @@
   },
   {
     "Name": "Lil Haunt",
+    "ItemId": 277,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19018,6 +19648,9 @@
   },
   {
     "Name": "Dark Bum",
+    "ItemId": 278,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -19106,6 +19739,9 @@
   },
   {
     "Name": "Big Fan",
+    "ItemId": 279,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -19195,6 +19831,9 @@
   },
   {
     "Name": "Sissy Longlegs",
+    "ItemId": 280,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19286,6 +19925,9 @@
   },
   {
     "Name": "Punching Bag",
+    "ItemId": 281,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19374,6 +20016,9 @@
   },
   {
     "Name": "Taurus",
+    "ItemId": 299,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19466,6 +20111,9 @@
   },
   {
     "Name": "Aries",
+    "ItemId": 300,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19553,6 +20201,9 @@
   },
   {
     "Name": "Cancer",
+    "ItemId": 301,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -19645,6 +20296,9 @@
   },
   {
     "Name": "Leo",
+    "ItemId": 302,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19739,6 +20393,9 @@
   },
   {
     "Name": "Virgo",
+    "ItemId": 303,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -19827,6 +20484,9 @@
   },
   {
     "Name": "Libra",
+    "ItemId": 304,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -19911,6 +20571,9 @@
   },
   {
     "Name": "Scorpio",
+    "ItemId": 305,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -19999,6 +20662,9 @@
   },
   {
     "Name": "Sagittarius",
+    "ItemId": 306,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -20087,6 +20753,9 @@
   },
   {
     "Name": "Capricorn",
+    "ItemId": 307,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -20179,6 +20848,9 @@
   },
   {
     "Name": "Aquarius",
+    "ItemId": 308,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -20275,6 +20947,9 @@
   },
   {
     "Name": "Pisces",
+    "ItemId": 309,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -20360,6 +21035,9 @@
   },
   {
     "Name": "Eve's Mascara",
+    "ItemId": 310,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -20446,6 +21124,9 @@
   },
   {
     "Name": "Judas' Shadow",
+    "ItemId": 311,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -20542,6 +21223,9 @@
   },
   {
     "Name": "Maggy's Bow",
+    "ItemId": 312,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -20628,6 +21312,9 @@
   },
   {
     "Name": "Holy Mantle",
+    "ItemId": 313,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -20724,6 +21411,9 @@
   },
   {
     "Name": "Thunder Thighs",
+    "ItemId": 314,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -20817,6 +21507,9 @@
   },
   {
     "Name": "Strange Attractor",
+    "ItemId": 315,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -20907,6 +21600,9 @@
   },
   {
     "Name": "Cursed Eye",
+    "ItemId": 316,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -20996,6 +21692,9 @@
   },
   {
     "Name": "Mysterious Liquid",
+    "ItemId": 317,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -21084,6 +21783,9 @@
   },
   {
     "Name": "Gemini",
+    "ItemId": 318,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -21170,6 +21872,9 @@
   },
   {
     "Name": "Cain's Other Eye",
+    "ItemId": 319,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -21259,6 +21964,9 @@
   },
   {
     "Name": "???'s Only Friend",
+    "ItemId": 320,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -21350,6 +22058,9 @@
   },
   {
     "Name": "Samson's Chains",
+    "ItemId": 321,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -21443,6 +22154,9 @@
   },
   {
     "Name": "Mongo Baby",
+    "ItemId": 322,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -21527,6 +22241,9 @@
   },
   {
     "Name": "The Ludovico Technique",
+    "ItemId": 329,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -21622,6 +22339,9 @@
   },
   {
     "Name": "Soy Milk",
+    "ItemId": 330,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -21715,6 +22435,9 @@
   },
   {
     "Name": "Godhead",
+    "ItemId": 331,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -21809,6 +22532,9 @@
   },
   {
     "Name": "Lazarus' Rags",
+    "ItemId": 332,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -21902,6 +22628,9 @@
   },
   {
     "Name": "The Mind",
+    "ItemId": 333,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -21996,6 +22725,9 @@
   },
   {
     "Name": "The Body",
+    "ItemId": 334,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22088,6 +22820,9 @@
   },
   {
     "Name": "The Soul",
+    "ItemId": 335,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22183,6 +22918,9 @@
   },
   {
     "Name": "Dead Onion",
+    "ItemId": 336,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22268,6 +23006,9 @@
   },
   {
     "Name": "Broken Watch",
+    "ItemId": 337,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -22359,6 +23100,9 @@
   },
   {
     "Name": "Safety Pin",
+    "ItemId": 339,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -22443,6 +23187,9 @@
   },
   {
     "Name": "Caffeine Pill",
+    "ItemId": 340,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -22529,6 +23276,9 @@
   },
   {
     "Name": "Torn Photo",
+    "ItemId": 341,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22619,6 +23369,9 @@
   },
   {
     "Name": "Blue Cap",
+    "ItemId": 342,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22707,6 +23460,9 @@
   },
   {
     "Name": "Latch Key",
+    "ItemId": 343,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -22791,6 +23547,9 @@
   },
   {
     "Name": "Match Book",
+    "ItemId": 344,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -22877,6 +23636,9 @@
   },
   {
     "Name": "Synthoil",
+    "ItemId": 345,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -22965,6 +23727,9 @@
   },
   {
     "Name": "A Snack",
+    "ItemId": 346,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -23059,6 +23824,9 @@
   },
   {
     "Name": "Toxic Shock",
+    "ItemId": 350,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -23150,6 +23918,9 @@
   },
   {
     "Name": "Bomber Boy",
+    "ItemId": 353,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -23240,6 +24011,9 @@
   },
   {
     "Name": "Crack Jacks",
+    "ItemId": 354,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -23330,6 +24104,9 @@
   },
   {
     "Name": "Mom's Pearls",
+    "ItemId": 355,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -23416,6 +24193,9 @@
   },
   {
     "Name": "Car Battery",
+    "ItemId": 356,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -23503,6 +24283,9 @@
   },
   {
     "Name": "The Wiz",
+    "ItemId": 358,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -23592,6 +24375,9 @@
   },
   {
     "Name": "8 Inch Nails",
+    "ItemId": 359,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -23687,6 +24473,9 @@
   },
   {
     "Name": "Incubus",
+    "ItemId": 360,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -23782,6 +24571,9 @@
   },
   {
     "Name": "Fate's Reward",
+    "ItemId": 361,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -23868,6 +24660,9 @@
   },
   {
     "Name": "Lil Chest",
+    "ItemId": 362,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -23957,6 +24752,9 @@
   },
   {
     "Name": "Sworn Protector",
+    "ItemId": 363,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -24056,6 +24854,9 @@
   },
   {
     "Name": "Friend Zone",
+    "ItemId": 364,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -24144,6 +24945,9 @@
   },
   {
     "Name": "Lost Fly",
+    "ItemId": 365,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -24228,6 +25032,9 @@
   },
   {
     "Name": "Scatter Bombs",
+    "ItemId": 366,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -24314,6 +25121,9 @@
   },
   {
     "Name": "Sticky Bombs",
+    "ItemId": 367,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -24397,6 +25207,9 @@
   },
   {
     "Name": "Epiphora",
+    "ItemId": 368,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -24482,6 +25295,9 @@
   },
   {
     "Name": "Continuum",
+    "ItemId": 369,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -24571,6 +25387,9 @@
   },
   {
     "Name": "Mr. Dolly",
+    "ItemId": 370,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -24657,6 +25476,9 @@
   },
   {
     "Name": "Curse of the Tower",
+    "ItemId": 371,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -24748,6 +25570,9 @@
   },
   {
     "Name": "Charged Baby",
+    "ItemId": 372,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -24836,6 +25661,9 @@
   },
   {
     "Name": "Dead Eye",
+    "ItemId": 373,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -24929,6 +25757,9 @@
   },
   {
     "Name": "Holy Light",
+    "ItemId": 374,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -25025,6 +25856,9 @@
   },
   {
     "Name": "Host Hat",
+    "ItemId": 375,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -25120,6 +25954,9 @@
   },
   {
     "Name": "Restock",
+    "ItemId": 376,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -25209,6 +26046,9 @@
   },
   {
     "Name": "Bursting Sack",
+    "ItemId": 377,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -25300,6 +26140,9 @@
   },
   {
     "Name": "No. 2",
+    "ItemId": 378,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -25386,6 +26229,9 @@
   },
   {
     "Name": "Pupula Duplex",
+    "ItemId": 379,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -25474,6 +26320,9 @@
   },
   {
     "Name": "Pay to Play",
+    "ItemId": 380,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -25563,6 +26412,9 @@
   },
   {
     "Name": "Eden's Blessing",
+    "ItemId": 381,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -25657,6 +26509,9 @@
   },
   {
     "Name": "Lil Gurdy",
+    "ItemId": 384,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -25748,6 +26603,9 @@
   },
   {
     "Name": "Bumbo",
+    "ItemId": 385,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -25842,6 +26700,9 @@
   },
   {
     "Name": "Censer",
+    "ItemId": 387,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -25942,6 +26803,9 @@
   },
   {
     "Name": "Key Bum",
+    "ItemId": 388,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -26035,6 +26899,9 @@
   },
   {
     "Name": "Rune Bag",
+    "ItemId": 389,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -26123,6 +26990,9 @@
   },
   {
     "Name": "Seraphim",
+    "ItemId": 390,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -26221,6 +27091,9 @@
   },
   {
     "Name": "Betrayal",
+    "ItemId": 391,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -26305,6 +27178,9 @@
   },
   {
     "Name": "Zodiac",
+    "ItemId": 392,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -26392,6 +27268,9 @@
   },
   {
     "Name": "Serpent's Kiss",
+    "ItemId": 393,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -26484,6 +27363,9 @@
   },
   {
     "Name": "Marked",
+    "ItemId": 394,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -26573,6 +27455,9 @@
   },
   {
     "Name": "Tech X",
+    "ItemId": 395,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -26673,6 +27558,9 @@
   },
   {
     "Name": "Tractor Beam",
+    "ItemId": 397,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -26760,6 +27648,9 @@
   },
   {
     "Name": "God's Flesh",
+    "ItemId": 398,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -26845,6 +27736,9 @@
   },
   {
     "Name": "Maw of the Void",
+    "ItemId": 399,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -26940,6 +27834,9 @@
   },
   {
     "Name": "Spear of Destiny",
+    "ItemId": 400,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -27033,6 +27930,9 @@
   },
   {
     "Name": "Explosivo",
+    "ItemId": 401,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -27120,6 +28020,9 @@
   },
   {
     "Name": "Chaos",
+    "ItemId": 402,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -27211,6 +28114,9 @@
   },
   {
     "Name": "Spider Mod",
+    "ItemId": 403,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -27299,6 +28205,9 @@
   },
   {
     "Name": "Farting Baby",
+    "ItemId": 404,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -27386,6 +28295,9 @@
   },
   {
     "Name": "GB Bug",
+    "ItemId": 405,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -27475,6 +28387,9 @@
   },
   {
     "Name": "Purity",
+    "ItemId": 407,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -27560,6 +28475,9 @@
   },
   {
     "Name": "Athame",
+    "ItemId": 408,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -27653,6 +28571,9 @@
   },
   {
     "Name": "Empty Vessel",
+    "ItemId": 409,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -27745,6 +28666,9 @@
   },
   {
     "Name": "Evil Eye",
+    "ItemId": 410,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -27833,6 +28757,9 @@
   },
   {
     "Name": "Lusty Blood",
+    "ItemId": 411,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -27927,6 +28854,9 @@
   },
   {
     "Name": "Cambion Conception",
+    "ItemId": 412,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -28022,6 +28952,9 @@
   },
   {
     "Name": "Immaculate Conception",
+    "ItemId": 413,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -28112,6 +29045,9 @@
   },
   {
     "Name": "More Options",
+    "ItemId": 414,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -28211,6 +29147,9 @@
   },
   {
     "Name": "Crown of Light",
+    "ItemId": 415,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -28309,6 +29248,9 @@
   },
   {
     "Name": "Deep Pockets",
+    "ItemId": 416,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -28397,6 +29339,9 @@
   },
   {
     "Name": "Succubus",
+    "ItemId": 417,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -28498,6 +29443,9 @@
   },
   {
     "Name": "Fruit Cake",
+    "ItemId": 418,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -28592,6 +29540,9 @@
   },
   {
     "Name": "Black Powder",
+    "ItemId": 420,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -28681,6 +29632,9 @@
   },
   {
     "Name": "Circle of Protection",
+    "ItemId": 423,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -28773,6 +29727,9 @@
   },
   {
     "Name": "Sack Head",
+    "ItemId": 424,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -28866,6 +29823,9 @@
   },
   {
     "Name": "Night Light",
+    "ItemId": 425,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -28950,6 +29910,9 @@
   },
   {
     "Name": "Obsessed Fan",
+    "ItemId": 426,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -29040,6 +30003,9 @@
   },
   {
     "Name": "PJs",
+    "ItemId": 428,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -29131,6 +30097,9 @@
   },
   {
     "Name": "Papa Fly",
+    "ItemId": 430,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29222,6 +30191,9 @@
   },
   {
     "Name": "Multidimensional Baby",
+    "ItemId": 431,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29309,6 +30281,9 @@
   },
   {
     "Name": "Glitter Bombs",
+    "ItemId": 432,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -29395,6 +30370,9 @@
   },
   {
     "Name": "My Shadow",
+    "ItemId": 433,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -29491,6 +30469,9 @@
   },
   {
     "Name": "Lil Loki",
+    "ItemId": 435,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29581,6 +30562,9 @@
   },
   {
     "Name": "Milk!",
+    "ItemId": 436,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29668,6 +30652,9 @@
   },
   {
     "Name": "Binky",
+    "ItemId": 438,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -29759,6 +30746,9 @@
   },
   {
     "Name": "Kidney Stone",
+    "ItemId": 440,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29847,6 +30837,9 @@
   },
   {
     "Name": "Dark Prince's Crown",
+    "ItemId": 442,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -29937,6 +30930,9 @@
   },
   {
     "Name": "Apple!",
+    "ItemId": 443,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -30033,6 +31029,9 @@
   },
   {
     "Name": "Lead Pencil",
+    "ItemId": 444,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -30127,6 +31126,9 @@
   },
   {
     "Name": "Dog Tooth",
+    "ItemId": 445,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -30218,6 +31220,9 @@
   },
   {
     "Name": "Dead Tooth",
+    "ItemId": 446,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -30305,6 +31310,9 @@
   },
   {
     "Name": "Linger Bean",
+    "ItemId": 447,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -30398,6 +31406,9 @@
   },
   {
     "Name": "Shard of Glass",
+    "ItemId": 448,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -30486,6 +31497,9 @@
   },
   {
     "Name": "Metal Plate",
+    "ItemId": 449,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -30576,6 +31590,9 @@
   },
   {
     "Name": "Eye of Greed",
+    "ItemId": 450,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -30667,6 +31684,9 @@
   },
   {
     "Name": "Tarot Cloth",
+    "ItemId": 451,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -30758,6 +31778,9 @@
   },
   {
     "Name": "Varicose Veins",
+    "ItemId": 452,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -30846,6 +31869,9 @@
   },
   {
     "Name": "Compound Fracture",
+    "ItemId": 453,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -30932,6 +31958,9 @@
   },
   {
     "Name": "Polydactyly",
+    "ItemId": 454,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -31021,6 +32050,9 @@
   },
   {
     "Name": "Dad's Lost Coin",
+    "ItemId": 455,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -31108,6 +32140,9 @@
   },
   {
     "Name": "Midnight Snack",
+    "ItemId": 456,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -31198,6 +32233,9 @@
   },
   {
     "Name": "Cone Head",
+    "ItemId": 457,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -31289,6 +32327,9 @@
   },
   {
     "Name": "Belly Button",
+    "ItemId": 458,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -31385,6 +32426,9 @@
   },
   {
     "Name": "Sinus Infection",
+    "ItemId": 459,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -31478,6 +32522,9 @@
   },
   {
     "Name": "Glaucoma",
+    "ItemId": 460,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -31561,6 +32608,9 @@
   },
   {
     "Name": "Parasitoid",
+    "ItemId": 461,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -31662,6 +32712,9 @@
   },
   {
     "Name": "Eye of Belial",
+    "ItemId": 462,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -31761,6 +32814,9 @@
   },
   {
     "Name": "Sulfuric Acid",
+    "ItemId": 463,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -31850,6 +32906,9 @@
   },
   {
     "Name": "Glyph of Balance",
+    "ItemId": 464,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -31939,6 +32998,9 @@
   },
   {
     "Name": "Analog Stick",
+    "ItemId": 465,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -32024,6 +33086,9 @@
   },
   {
     "Name": "Contagion",
+    "ItemId": 466,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -32117,6 +33182,9 @@
   },
   {
     "Name": "Finger!",
+    "ItemId": 467,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -32201,6 +33269,9 @@
   },
   {
     "Name": "Shade",
+    "ItemId": 468,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -32287,6 +33358,9 @@
   },
   {
     "Name": "Depression",
+    "ItemId": 469,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -32377,6 +33451,9 @@
   },
   {
     "Name": "Hushy",
+    "ItemId": 470,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -32469,6 +33546,9 @@
   },
   {
     "Name": "Lil Monstro",
+    "ItemId": 471,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -32557,6 +33637,9 @@
   },
   {
     "Name": "King Baby",
+    "ItemId": 472,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -32646,6 +33729,9 @@
   },
   {
     "Name": "Big Chubby",
+    "ItemId": 473,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -32732,6 +33818,9 @@
   },
   {
     "Name": "Acid Baby",
+    "ItemId": 491,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -32819,6 +33908,9 @@
   },
   {
     "Name": "YO LISTEN!",
+    "ItemId": 492,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -32913,6 +34005,9 @@
   },
   {
     "Name": "Adrenaline",
+    "ItemId": 493,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -32998,6 +34093,9 @@
   },
   {
     "Name": "Jacob's Ladder",
+    "ItemId": 494,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -33085,6 +34183,9 @@
   },
   {
     "Name": "Ghost Pepper",
+    "ItemId": 495,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -33175,6 +34276,9 @@
   },
   {
     "Name": "Euthanasia",
+    "ItemId": 496,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -33271,6 +34375,9 @@
   },
   {
     "Name": "Camo Undies",
+    "ItemId": 497,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -33355,6 +34462,9 @@
   },
   {
     "Name": "Duality",
+    "ItemId": 498,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -33442,6 +34552,9 @@
   },
   {
     "Name": "Eucharist",
+    "ItemId": 499,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -33544,6 +34657,9 @@
   },
   {
     "Name": "Sack of Sacks",
+    "ItemId": 500,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -33642,6 +34758,9 @@
   },
   {
     "Name": "Greed's Gullet",
+    "ItemId": 501,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -33735,6 +34854,9 @@
   },
   {
     "Name": "Large Zit",
+    "ItemId": 502,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -33824,6 +34946,9 @@
   },
   {
     "Name": "Little Horn",
+    "ItemId": 503,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -33930,6 +35055,9 @@
   },
   {
     "Name": "Poke Go",
+    "ItemId": 505,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -34020,6 +35148,9 @@
   },
   {
     "Name": "Backstabber",
+    "ItemId": 506,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34104,6 +35235,9 @@
   },
   {
     "Name": "Mom's Razor",
+    "ItemId": 508,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34197,6 +35331,9 @@
   },
   {
     "Name": "Bloodshot Eye",
+    "ItemId": 509,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34287,6 +35424,9 @@
   },
   {
     "Name": "Angry Fly",
+    "ItemId": 511,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34373,6 +35513,9 @@
   },
   {
     "Name": "Bozo",
+    "ItemId": 513,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -34458,6 +35601,9 @@
   },
   {
     "Name": "Broken Modem",
+    "ItemId": 514,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34546,6 +35692,9 @@
   },
   {
     "Name": "Fast Bombs",
+    "ItemId": 517,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -34638,6 +35787,9 @@
   },
   {
     "Name": "Buddy in a Box",
+    "ItemId": 518,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -34726,6 +35878,9 @@
   },
   {
     "Name": "Lil Delirium",
+    "ItemId": 519,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -34816,6 +35971,9 @@
   },
   {
     "Name": "Jumper Cables",
+    "ItemId": 520,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -34910,6 +36068,9 @@
   },
   {
     "Name": "Technology Zero",
+    "ItemId": 524,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -35001,6 +36162,9 @@
   },
   {
     "Name": "Leprosy",
+    "ItemId": 525,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -35088,6 +36252,9 @@
   },
   {
     "Name": "7 Seals",
+    "ItemId": 526,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35178,6 +36345,9 @@
   },
   {
     "Name": "Angelic Prism",
+    "ItemId": 528,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -35279,6 +36449,9 @@
   },
   {
     "Name": "Pop!",
+    "ItemId": 529,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35365,6 +36538,9 @@
   },
   {
     "Name": "Death's List",
+    "ItemId": 530,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35457,6 +36633,9 @@
   },
   {
     "Name": "Haemolacria",
+    "ItemId": 531,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35544,6 +36723,9 @@
   },
   {
     "Name": "Lachryphagy",
+    "ItemId": 532,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35629,6 +36811,9 @@
   },
   {
     "Name": "Trisagion",
+    "ItemId": 533,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -35724,6 +36909,9 @@
   },
   {
     "Name": "Schoolbag",
+    "ItemId": 534,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -35811,6 +36999,9 @@
   },
   {
     "Name": "Blanket",
+    "ItemId": 535,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -35902,6 +37093,9 @@
   },
   {
     "Name": "Lil Spewer",
+    "ItemId": 537,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -35993,6 +37187,9 @@
   },
   {
     "Name": "Marbles",
+    "ItemId": 538,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -36082,6 +37279,9 @@
   },
   {
     "Name": "Mystery Egg",
+    "ItemId": 539,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -36166,6 +37366,9 @@
   },
   {
     "Name": "Flat Stone",
+    "ItemId": 540,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -36255,6 +37458,9 @@
   },
   {
     "Name": "Marrow",
+    "ItemId": 541,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -36346,6 +37552,9 @@
   },
   {
     "Name": "Slipped Rib",
+    "ItemId": 542,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -36438,6 +37647,9 @@
   },
   {
     "Name": "Hallowed Ground",
+    "ItemId": 543,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -36528,6 +37740,9 @@
   },
   {
     "Name": "Pointy Rib",
+    "ItemId": 544,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -36610,6 +37825,9 @@
   },
   {
     "Name": "Dad's Ring",
+    "ItemId": 546,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -36709,6 +37927,9 @@
   },
   {
     "Name": "Divorce Papers",
+    "ItemId": 547,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -36799,6 +38020,9 @@
   },
   {
     "Name": "Jaw Bone",
+    "ItemId": 548,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -36888,6 +38112,9 @@
   },
   {
     "Name": "Brittle Bones",
+    "ItemId": 549,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -36987,6 +38214,9 @@
   },
   {
     "Name": "Mucormycosis",
+    "ItemId": 553,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -37081,6 +38311,9 @@
   },
   {
     "Name": "2Spooky",
+    "ItemId": 554,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -37175,6 +38408,9 @@
   },
   {
     "Name": "Eye Sore",
+    "ItemId": 558,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -37257,6 +38493,9 @@
   },
   {
     "Name": "120 Volt",
+    "ItemId": 559,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -37353,6 +38592,9 @@
   },
   {
     "Name": "It Hurts",
+    "ItemId": 560,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -37442,6 +38684,9 @@
   },
   {
     "Name": "Almond Milk",
+    "ItemId": 561,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -37527,6 +38772,9 @@
   },
   {
     "Name": "Rock Bottom",
+    "ItemId": 562,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -37622,6 +38870,9 @@
   },
   {
     "Name": "Nancy Bombs",
+    "ItemId": 563,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -37710,6 +38961,9 @@
   },
   {
     "Name": "A Bar of Soap",
+    "ItemId": 564,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -37795,6 +39049,9 @@
   },
   {
     "Name": "Blood Puppy",
+    "ItemId": 565,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -37880,6 +39137,9 @@
   },
   {
     "Name": "Dream Catcher",
+    "ItemId": 566,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -37972,6 +39232,9 @@
   },
   {
     "Name": "Paschal Candle",
+    "ItemId": 567,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -38081,6 +39344,9 @@
   },
   {
     "Name": "Divine Intervention",
+    "ItemId": 568,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -38172,6 +39438,9 @@
   },
   {
     "Name": "Blood Oath",
+    "ItemId": 569,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -38267,6 +39536,9 @@
   },
   {
     "Name": "Playdough Cookie",
+    "ItemId": 570,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -38371,6 +39643,9 @@
   },
   {
     "Name": "Orphan Socks",
+    "ItemId": 571,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -38461,6 +39736,9 @@
   },
   {
     "Name": "Eye of the Occult",
+    "ItemId": 572,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -38562,6 +39840,9 @@
   },
   {
     "Name": "Immaculate Heart",
+    "ItemId": 573,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -38664,6 +39945,9 @@
   },
   {
     "Name": "Monstrance",
+    "ItemId": 574,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -38754,6 +40038,9 @@
   },
   {
     "Name": "The Intruder",
+    "ItemId": 575,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -38849,6 +40136,9 @@
   },
   {
     "Name": "Dirty Mind",
+    "ItemId": 576,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -38944,6 +40234,9 @@
   },
   {
     "Name": "Spirit Sword",
+    "ItemId": 579,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39039,6 +40332,9 @@
   },
   {
     "Name": "Psy Fly",
+    "ItemId": 581,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39134,6 +40430,9 @@
   },
   {
     "Name": "Rocket in a Jar",
+    "ItemId": 583,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -39232,6 +40531,9 @@
   },
   {
     "Name": "The Stairway",
+    "ItemId": 586,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39334,6 +40636,9 @@
   },
   {
     "Name": "Sol",
+    "ItemId": 588,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -39423,6 +40728,9 @@
   },
   {
     "Name": "Luna",
+    "ItemId": 589,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -39515,6 +40823,9 @@
   },
   {
     "Name": "Mercurius",
+    "ItemId": 590,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39604,6 +40915,9 @@
   },
   {
     "Name": "Venus",
+    "ItemId": 591,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -39699,6 +41013,9 @@
   },
   {
     "Name": "Terra",
+    "ItemId": 592,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39789,6 +41106,9 @@
   },
   {
     "Name": "Mars",
+    "ItemId": 593,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -39883,6 +41203,9 @@
   },
   {
     "Name": "Jupiter",
+    "ItemId": 594,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -39972,6 +41295,9 @@
   },
   {
     "Name": "Saturnus",
+    "ItemId": 595,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -40064,6 +41390,9 @@
   },
   {
     "Name": "Uranus",
+    "ItemId": 596,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40150,6 +41479,9 @@
   },
   {
     "Name": "Neptunus",
+    "ItemId": 597,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40239,6 +41571,9 @@
   },
   {
     "Name": "Pluto",
+    "ItemId": 598,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40327,6 +41662,9 @@
   },
   {
     "Name": "Voodoo Head",
+    "ItemId": 599,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -40413,6 +41751,9 @@
   },
   {
     "Name": "Eye Drops",
+    "ItemId": 600,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40501,6 +41842,9 @@
   },
   {
     "Name": "Act of Contrition",
+    "ItemId": 601,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40604,6 +41948,9 @@
   },
   {
     "Name": "Member Card",
+    "ItemId": 602,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -40692,6 +42039,9 @@
   },
   {
     "Name": "Battery Pack",
+    "ItemId": 603,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -40777,6 +42127,9 @@
   },
   {
     "Name": "Ocular Rift",
+    "ItemId": 606,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -40877,6 +42230,9 @@
   },
   {
     "Name": "Boiled Baby",
+    "ItemId": 607,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -40961,6 +42317,9 @@
   },
   {
     "Name": "Freezer Baby",
+    "ItemId": 608,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -41045,6 +42404,9 @@
   },
   {
     "Name": "Bird Cage",
+    "ItemId": 610,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -41131,6 +42493,9 @@
   },
   {
     "Name": "Lost Soul",
+    "ItemId": 612,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -41222,6 +42587,9 @@
   },
   {
     "Name": "Blood Bombs",
+    "ItemId": 614,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -41307,6 +42675,9 @@
   },
   {
     "Name": "Lil Dumpy",
+    "ItemId": 615,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -41392,6 +42763,9 @@
   },
   {
     "Name": "Bird's Eye",
+    "ItemId": 616,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -41479,6 +42853,9 @@
   },
   {
     "Name": "Lodestone",
+    "ItemId": 617,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -41579,6 +42956,9 @@
   },
   {
     "Name": "Rotten Tomato",
+    "ItemId": 618,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -41664,6 +43044,9 @@
   },
   {
     "Name": "Birthright",
+    "ItemId": 619,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -41748,6 +43131,9 @@
   },
   {
     "Name": "Red Stew",
+    "ItemId": 621,
+    "IsActiveItem": false,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -41833,6 +43219,9 @@
   },
   {
     "Name": "Booster Pack",
+    "ItemId": 624,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -41917,6 +43306,9 @@
   },
   {
     "Name": "Bot Fly",
+    "ItemId": 629,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -42002,6 +43394,9 @@
   },
   {
     "Name": "Evil Charm",
+    "ItemId": 632,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -42098,6 +43493,9 @@
   },
   {
     "Name": "Purgatory",
+    "ItemId": 634,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -42189,6 +43587,9 @@
   },
   {
     "Name": "Knockout Drops",
+    "ItemId": 637,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -42278,6 +43679,9 @@
   },
   {
     "Name": "Akeldama",
+    "ItemId": 641,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -42365,6 +43769,9 @@
   },
   {
     "Name": "Revelation",
+    "ItemId": 643,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -42460,6 +43867,9 @@
   },
   {
     "Name": "Consolation Prize",
+    "ItemId": 644,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -42550,6 +43960,9 @@
   },
   {
     "Name": "Tinytoma",
+    "ItemId": 645,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -42641,6 +44054,9 @@
   },
   {
     "Name": "Brimstone Bombs",
+    "ItemId": 646,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -42743,6 +44159,9 @@
   },
   {
     "Name": "4.5 Volt",
+    "ItemId": 647,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -42827,6 +44246,9 @@
   },
   {
     "Name": "Fruity Plum",
+    "ItemId": 649,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -42915,6 +44337,9 @@
   },
   {
     "Name": "Star of Bethlehem",
+    "ItemId": 651,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -43012,6 +44437,9 @@
   },
   {
     "Name": "Cube Baby",
+    "ItemId": 652,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -43097,6 +44525,9 @@
   },
   {
     "Name": "False PHD",
+    "ItemId": 654,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -43189,6 +44620,9 @@
   },
   {
     "Name": "Vasculitis",
+    "ItemId": 657,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -43278,6 +44712,9 @@
   },
   {
     "Name": "Giant Cell",
+    "ItemId": 658,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -43365,6 +44802,9 @@
   },
   {
     "Name": "Tropicamide",
+    "ItemId": 659,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -43456,6 +44896,9 @@
   },
   {
     "Name": "Card Reading",
+    "ItemId": 660,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -43545,6 +44988,9 @@
   },
   {
     "Name": "Quints",
+    "ItemId": 661,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -43631,6 +45077,9 @@
   },
   {
     "Name": "Tooth and Nail",
+    "ItemId": 663,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -43719,6 +45168,9 @@
   },
   {
     "Name": "Binge Eater",
+    "ItemId": 664,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -43819,6 +45271,9 @@
   },
   {
     "Name": "Guppy's Eye",
+    "ItemId": 665,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -43911,6 +45366,9 @@
   },
   {
     "Name": "Strawman",
+    "ItemId": 667,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -44001,6 +45459,9 @@
   },
   {
     "Name": "Sausage",
+    "ItemId": 669,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -44104,6 +45565,9 @@
   },
   {
     "Name": "Options?",
+    "ItemId": 670,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -44187,6 +45651,9 @@
   },
   {
     "Name": "Candy Heart",
+    "ItemId": 671,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -44273,6 +45740,9 @@
   },
   {
     "Name": "A Pound of Flesh",
+    "ItemId": 672,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -44363,6 +45833,9 @@
   },
   {
     "Name": "Spirit Shackles",
+    "ItemId": 674,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -44461,6 +45934,9 @@
   },
   {
     "Name": "Cracked Orb",
+    "ItemId": 675,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -44542,6 +46018,9 @@
   },
   {
     "Name": "Empty Heart",
+    "ItemId": 676,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -44627,6 +46106,9 @@
   },
   {
     "Name": "Astral Projection",
+    "ItemId": 677,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -44721,6 +46203,9 @@
   },
   {
     "Name": "Lil Abaddon",
+    "ItemId": 679,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -44822,6 +46307,9 @@
   },
   {
     "Name": "Montezuma's Revenge",
+    "ItemId": 680,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -44913,6 +46401,9 @@
   },
   {
     "Name": "Lil Portal",
+    "ItemId": 681,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -45002,6 +46493,9 @@
   },
   {
     "Name": "Worm Friend",
+    "ItemId": 682,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -45090,6 +46584,9 @@
   },
   {
     "Name": "Bone Spurs",
+    "ItemId": 683,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -45174,6 +46671,9 @@
   },
   {
     "Name": "Hungry Soul",
+    "ItemId": 684,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -45270,6 +46770,9 @@
   },
   {
     "Name": "Soul Locket",
+    "ItemId": 686,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -45361,6 +46864,9 @@
   },
   {
     "Name": "Inner Child",
+    "ItemId": 688,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -45455,6 +46961,9 @@
   },
   {
     "Name": "Glitched Crown",
+    "ItemId": 689,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -45549,6 +47058,9 @@
   },
   {
     "Name": "Belly Jelly",
+    "ItemId": 690,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -45635,6 +47147,9 @@
   },
   {
     "Name": "Sacred Orb",
+    "ItemId": 691,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -45730,6 +47245,9 @@
   },
   {
     "Name": "Sanguine Bond",
+    "ItemId": 692,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -45822,6 +47340,9 @@
   },
   {
     "Name": "The Swarm",
+    "ItemId": 693,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -45905,6 +47426,9 @@
   },
   {
     "Name": "Heartbreak",
+    "ItemId": 694,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46003,6 +47527,9 @@
   },
   {
     "Name": "Bloody Gust",
+    "ItemId": 695,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46099,6 +47626,9 @@
   },
   {
     "Name": "Salvation",
+    "ItemId": 696,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -46190,6 +47720,9 @@
   },
   {
     "Name": "Vanishing Twin",
+    "ItemId": 697,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46287,6 +47820,9 @@
   },
   {
     "Name": "Twisted Pair",
+    "ItemId": 698,
+    "IsActiveItem": false,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -46386,6 +47922,9 @@
   },
   {
     "Name": "Azazel's Rage",
+    "ItemId": 699,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46486,6 +48025,9 @@
   },
   {
     "Name": "Echo Chamber",
+    "ItemId": 700,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -46581,6 +48123,9 @@
   },
   {
     "Name": "Isaac's Tomb",
+    "ItemId": 701,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46684,6 +48229,9 @@
   },
   {
     "Name": "Vengeful Spirit",
+    "ItemId": 702,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -46775,6 +48323,9 @@
   },
   {
     "Name": "Supper",
+    "ItemId": 707,
+    "IsActiveItem": false,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -46863,6 +48414,9 @@
   },
   {
     "Name": "Stapler",
+    "ItemId": 708,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -46955,6 +48509,9 @@
   },
   {
     "Name": "Keeper's Sack",
+    "ItemId": 716,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -47043,6 +48600,9 @@
   },
   {
     "Name": "Keeper's Kin",
+    "ItemId": 717,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -47134,6 +48694,9 @@
   },
   {
     "Name": "TMTRAINER",
+    "ItemId": 721,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -47227,6 +48790,9 @@
   },
   {
     "Name": "Hypercoagulation",
+    "ItemId": 724,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -47316,6 +48882,9 @@
   },
   {
     "Name": "IBS",
+    "ItemId": 725,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -47402,6 +48971,9 @@
   },
   {
     "Name": "Hemoptysis",
+    "ItemId": 726,
+    "IsActiveItem": false,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -47494,6 +49066,9 @@
   },
   {
     "Name": "Ghost Bombs",
+    "ItemId": 727,
+    "IsActiveItem": false,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -47587,6 +49162,9 @@
   },
   {
     "Name": "The Bible",
+    "ItemId": 33,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -47668,6 +49246,9 @@
   },
   {
     "Name": "The Book of Belial",
+    "ItemId": 34,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -47769,6 +49350,9 @@
   },
   {
     "Name": "The Necronomicon",
+    "ItemId": 35,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -47859,6 +49443,9 @@
   },
   {
     "Name": "The Poop",
+    "ItemId": 36,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -47948,6 +49535,9 @@
   },
   {
     "Name": "Mr. Boom",
+    "ItemId": 37,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48034,6 +49624,9 @@
   },
   {
     "Name": "Mom's Bra",
+    "ItemId": 39,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48128,6 +49721,9 @@
   },
   {
     "Name": "Kamikaze!",
+    "ItemId": 40,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -48219,6 +49815,9 @@
   },
   {
     "Name": "Mom's Pad",
+    "ItemId": 41,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -48307,6 +49906,9 @@
   },
   {
     "Name": "Bob's Rotten Head",
+    "ItemId": 42,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48399,6 +50001,9 @@
   },
   {
     "Name": "Teleport",
+    "ItemId": 44,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -48492,6 +50097,9 @@
   },
   {
     "Name": "Yum Heart",
+    "ItemId": 45,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48579,6 +50187,9 @@
   },
   {
     "Name": "Doctor's Remote",
+    "ItemId": 47,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48671,6 +50282,9 @@
   },
   {
     "Name": "Shoop Da Whoop!",
+    "ItemId": 49,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48763,6 +50377,9 @@
   },
   {
     "Name": "Lemon Mishap",
+    "ItemId": 56,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -48847,6 +50464,9 @@
   },
   {
     "Name": "Book of Shadows",
+    "ItemId": 58,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -48935,6 +50555,9 @@
   },
   {
     "Name": "Anarchist Cookbook",
+    "ItemId": 65,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49026,6 +50649,9 @@
   },
   {
     "Name": "The Hourglass",
+    "ItemId": 66,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49113,6 +50739,9 @@
   },
   {
     "Name": "My Little Unicorn",
+    "ItemId": 77,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49202,6 +50831,9 @@
   },
   {
     "Name": "Book of Revelations",
+    "ItemId": 78,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -49295,6 +50927,9 @@
   },
   {
     "Name": "The Nail",
+    "ItemId": 83,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -49398,6 +51033,9 @@
   },
   {
     "Name": "We Need to Go Deeper!",
+    "ItemId": 84,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -49484,6 +51122,9 @@
   },
   {
     "Name": "Deck of Cards",
+    "ItemId": 85,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49573,6 +51214,9 @@
   },
   {
     "Name": "Monstro's Tooth",
+    "ItemId": 86,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49664,6 +51308,9 @@
   },
   {
     "Name": "The Gamekid",
+    "ItemId": 93,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -49753,6 +51400,9 @@
   },
   {
     "Name": "The Book of Sin",
+    "ItemId": 97,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -49839,6 +51489,9 @@
   },
   {
     "Name": "Mom's Bottle of Pills",
+    "ItemId": 102,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -49924,6 +51577,9 @@
   },
   {
     "Name": "The D6",
+    "ItemId": 105,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -50016,6 +51672,9 @@
   },
   {
     "Name": "The Pinking Shears",
+    "ItemId": 107,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -50110,6 +51769,9 @@
   },
   {
     "Name": "The Bean",
+    "ItemId": 111,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -50198,6 +51860,9 @@
   },
   {
     "Name": "Monster Manual",
+    "ItemId": 123,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -50289,6 +51954,9 @@
   },
   {
     "Name": "Dead Sea Scrolls",
+    "ItemId": 124,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -50378,6 +52046,9 @@
   },
   {
     "Name": "Razor Blade",
+    "ItemId": 126,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -50475,6 +52146,9 @@
   },
   {
     "Name": "Forget Me Now",
+    "ItemId": 127,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -50570,6 +52244,9 @@
   },
   {
     "Name": "Guppy's Paw",
+    "ItemId": 133,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -50673,6 +52350,9 @@
   },
   {
     "Name": "Best Friend",
+    "ItemId": 136,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -50762,6 +52442,9 @@
   },
   {
     "Name": "Remote Detonator",
+    "ItemId": 137,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -50841,6 +52524,9 @@
   },
   {
     "Name": "Guppy's Head",
+    "ItemId": 145,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -50937,6 +52623,9 @@
   },
   {
     "Name": "Prayer Card",
+    "ItemId": 146,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -51022,6 +52711,9 @@
   },
   {
     "Name": "Notched Axe",
+    "ItemId": 147,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -51108,6 +52800,9 @@
   },
   {
     "Name": "Crack the Sky",
+    "ItemId": 160,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -51201,6 +52896,9 @@
   },
   {
     "Name": "The Candle",
+    "ItemId": 164,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -51292,6 +52990,9 @@
   },
   {
     "Name": "D20",
+    "ItemId": 166,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -51379,6 +53080,9 @@
   },
   {
     "Name": "Spider Butt",
+    "ItemId": 171,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -51465,6 +53169,9 @@
   },
   {
     "Name": "Dad's Key",
+    "ItemId": 175,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -51550,6 +53257,9 @@
   },
   {
     "Name": "Portable Slot",
+    "ItemId": 177,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -51632,6 +53342,9 @@
   },
   {
     "Name": "Blood Rights",
+    "ItemId": 186,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -51717,6 +53430,9 @@
   },
   {
     "Name": "Telepathy for Dummies",
+    "ItemId": 192,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -51804,6 +53520,9 @@
   },
   {
     "Name": "Clear Rune",
+    "ItemId": 263,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -51894,6 +53613,9 @@
   },
   {
     "Name": "How to Jump",
+    "ItemId": 282,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -51982,6 +53704,9 @@
   },
   {
     "Name": "D100",
+    "ItemId": 283,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -52072,6 +53797,9 @@
   },
   {
     "Name": "D4",
+    "ItemId": 284,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -52162,6 +53890,9 @@
   },
   {
     "Name": "D10",
+    "ItemId": 285,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -52251,6 +53982,9 @@
   },
   {
     "Name": "Blank Card",
+    "ItemId": 286,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -52337,6 +54071,9 @@
   },
   {
     "Name": "Book of Secrets",
+    "ItemId": 287,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -52423,6 +54160,9 @@
   },
   {
     "Name": "Box of Spiders",
+    "ItemId": 288,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -52512,6 +54252,9 @@
   },
   {
     "Name": "Red Candle",
+    "ItemId": 289,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -52599,6 +54342,9 @@
   },
   {
     "Name": "The Jar",
+    "ItemId": 290,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -52683,6 +54429,9 @@
   },
   {
     "Name": "Flush!",
+    "ItemId": 291,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -52772,6 +54521,9 @@
   },
   {
     "Name": "Satanic Bible",
+    "ItemId": 292,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -52868,6 +54620,9 @@
   },
   {
     "Name": "Butter Bean",
+    "ItemId": 294,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -52956,6 +54711,9 @@
   },
   {
     "Name": "Magic Fingers",
+    "ItemId": 295,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -53042,6 +54800,9 @@
   },
   {
     "Name": "Converter",
+    "ItemId": 296,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -53131,6 +54892,9 @@
   },
   {
     "Name": "Pandora's Box",
+    "ItemId": 297,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -53215,6 +54979,9 @@
   },
   {
     "Name": "Unicorn Stump",
+    "ItemId": 298,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -53296,6 +55063,9 @@
   },
   {
     "Name": "Isaac's Tears",
+    "ItemId": 323,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -53380,6 +55150,9 @@
   },
   {
     "Name": "Undefined",
+    "ItemId": 324,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -53467,6 +55240,9 @@
   },
   {
     "Name": "Scissors",
+    "ItemId": 325,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -53557,6 +55333,9 @@
   },
   {
     "Name": "Breath of Life",
+    "ItemId": 326,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -53647,6 +55426,9 @@
   },
   {
     "Name": "The Boomerang",
+    "ItemId": 338,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -53741,6 +55523,9 @@
   },
   {
     "Name": "Diplopia",
+    "ItemId": 347,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -53831,6 +55616,9 @@
   },
   {
     "Name": "Placebo",
+    "ItemId": 348,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -53921,6 +55709,9 @@
   },
   {
     "Name": "Wooden Nickel",
+    "ItemId": 349,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54009,6 +55800,9 @@
   },
   {
     "Name": "Mega Bean",
+    "ItemId": 351,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54098,6 +55892,9 @@
   },
   {
     "Name": "Glass Cannon",
+    "ItemId": 352,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54186,6 +55983,9 @@
   },
   {
     "Name": "Box of Friends",
+    "ItemId": 357,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54277,6 +56077,9 @@
   },
   {
     "Name": "Friendly Ball",
+    "ItemId": 382,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54364,6 +56167,9 @@
   },
   {
     "Name": "Tear Detonator",
+    "ItemId": 383,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54454,6 +56260,9 @@
   },
   {
     "Name": "D12",
+    "ItemId": 386,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -54542,6 +56351,9 @@
   },
   {
     "Name": "Ventricle Razor",
+    "ItemId": 396,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54628,6 +56440,9 @@
   },
   {
     "Name": "D8",
+    "ItemId": 406,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -54714,6 +56529,9 @@
   },
   {
     "Name": "Teleport 2.0",
+    "ItemId": 419,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -54800,6 +56618,9 @@
   },
   {
     "Name": "Kidney Bean",
+    "ItemId": 421,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -54891,6 +56712,9 @@
   },
   {
     "Name": "Glowing Hour Glass",
+    "ItemId": 422,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -54977,6 +56801,9 @@
   },
   {
     "Name": "Mine Crafter",
+    "ItemId": 427,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -55064,6 +56891,9 @@
   },
   {
     "Name": "Jar of Flies",
+    "ItemId": 434,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -55154,6 +56984,9 @@
   },
   {
     "Name": "D7",
+    "ItemId": 437,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -55243,6 +57076,9 @@
   },
   {
     "Name": "Mom's Box",
+    "ItemId": 439,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -55334,6 +57170,9 @@
   },
   {
     "Name": "Mega Blast",
+    "ItemId": 441,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -55436,6 +57275,9 @@
   },
   {
     "Name": "Plan C",
+    "ItemId": 475,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -55527,6 +57369,9 @@
   },
   {
     "Name": "D1",
+    "ItemId": 476,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -55617,6 +57462,9 @@
   },
   {
     "Name": "Void",
+    "ItemId": 477,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -55715,6 +57563,9 @@
   },
   {
     "Name": "Pause",
+    "ItemId": 478,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -55803,6 +57654,9 @@
   },
   {
     "Name": "Smelter",
+    "ItemId": 479,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -55892,6 +57746,9 @@
   },
   {
     "Name": "Compost",
+    "ItemId": 480,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -55979,6 +57836,9 @@
   },
   {
     "Name": "Dataminer",
+    "ItemId": 481,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -56066,6 +57926,9 @@
   },
   {
     "Name": "Clicker",
+    "ItemId": 482,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -56160,6 +58023,9 @@
   },
   {
     "Name": "Mama Mega!",
+    "ItemId": 483,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -56252,6 +58118,9 @@
   },
   {
     "Name": "Crooked Penny",
+    "ItemId": 485,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -56341,6 +58210,9 @@
   },
   {
     "Name": "Dull Razor",
+    "ItemId": 486,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -56428,6 +58300,9 @@
   },
   {
     "Name": "Potato Peeler",
+    "ItemId": 487,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -56520,6 +58395,9 @@
   },
   {
     "Name": "Metronome",
+    "ItemId": 488,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -56609,6 +58487,9 @@
   },
   {
     "Name": "D Infinity",
+    "ItemId": 489,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -56703,6 +58584,9 @@
   },
   {
     "Name": "Eden's Soul",
+    "ItemId": 490,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -56812,6 +58696,9 @@
   },
   {
     "Name": "Brown Nugget",
+    "ItemId": 504,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -56901,6 +58788,9 @@
   },
   {
     "Name": "Sharp Straw",
+    "ItemId": 507,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -56991,6 +58881,9 @@
   },
   {
     "Name": "Delirious",
+    "ItemId": 510,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -57086,6 +58979,9 @@
   },
   {
     "Name": "Black Hole",
+    "ItemId": 512,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -57174,6 +59070,9 @@
   },
   {
     "Name": "Mystery Gift",
+    "ItemId": 515,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -57263,6 +59162,9 @@
   },
   {
     "Name": "Sprinkler",
+    "ItemId": 516,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -57351,6 +59253,9 @@
   },
   {
     "Name": "Coupon",
+    "ItemId": 521,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -57445,6 +59350,9 @@
   },
   {
     "Name": "Telekinesis",
+    "ItemId": 522,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -57530,6 +59438,9 @@
   },
   {
     "Name": "Moving Box",
+    "ItemId": 523,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -57618,6 +59529,9 @@
   },
   {
     "Name": "Mr. ME!",
+    "ItemId": 527,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -57708,6 +59622,9 @@
   },
   {
     "Name": "Sacrificial Altar",
+    "ItemId": 536,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -57797,6 +59714,9 @@
   },
   {
     "Name": "Book of the Dead",
+    "ItemId": 545,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -57881,6 +59801,9 @@
   },
   {
     "Name": "Golden Razor",
+    "ItemId": 555,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -57968,6 +59891,9 @@
   },
   {
     "Name": "Sulfur",
+    "ItemId": 556,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58057,6 +59983,9 @@
   },
   {
     "Name": "Fortune Cookie",
+    "ItemId": 557,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58141,6 +60070,9 @@
   },
   {
     "Name": "Damocles",
+    "ItemId": 577,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58228,6 +60160,9 @@
   },
   {
     "Name": "Free Lemonade",
+    "ItemId": 578,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58318,6 +60253,9 @@
   },
   {
     "Name": "Red Key",
+    "ItemId": 580,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -58417,6 +60355,9 @@
   },
   {
     "Name": "Wavy Cap",
+    "ItemId": 582,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -58509,6 +60450,9 @@
   },
   {
     "Name": "Book of Virtues",
+    "ItemId": 584,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -58613,6 +60557,9 @@
   },
   {
     "Name": "Alabaster Box",
+    "ItemId": 585,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58701,6 +60648,9 @@
   },
   {
     "Name": "Mom's Bracelet",
+    "ItemId": 604,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58788,6 +60738,9 @@
   },
   {
     "Name": "The Scooper",
+    "ItemId": 605,
+    "IsActiveItem": true,
+    "Quality": 0,
     "Recipes": [
       {
         "Components": {
@@ -58879,6 +60832,9 @@
   },
   {
     "Name": "Eternal D6",
+    "ItemId": 609,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -58962,6 +60918,9 @@
   },
   {
     "Name": "Larynx",
+    "ItemId": 611,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -59051,6 +61010,9 @@
   },
   {
     "Name": "Genesis",
+    "ItemId": 622,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -59145,6 +61107,9 @@
   },
   {
     "Name": "Sharp Key",
+    "ItemId": 623,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -59231,6 +61196,9 @@
   },
   {
     "Name": "Mega Mush",
+    "ItemId": 625,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -59327,6 +61295,9 @@
   },
   {
     "Name": "Death Certificate",
+    "ItemId": 628,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -59429,6 +61400,9 @@
   },
   {
     "Name": "Meat Cleaver",
+    "ItemId": 631,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -59515,6 +61489,9 @@
   },
   {
     "Name": "Stitches",
+    "ItemId": 635,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -59601,6 +61578,9 @@
   },
   {
     "Name": "R Key",
+    "ItemId": 636,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -59707,6 +61687,9 @@
   },
   {
     "Name": "Eraser",
+    "ItemId": 638,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -59797,6 +61780,9 @@
   },
   {
     "Name": "Yuck Heart",
+    "ItemId": 639,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -59891,6 +61877,9 @@
   },
   {
     "Name": "Urn of Souls",
+    "ItemId": 640,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -59995,6 +61984,9 @@
   },
   {
     "Name": "Magic Skin",
+    "ItemId": 642,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -60081,6 +62073,9 @@
   },
   {
     "Name": "Plum Flute",
+    "ItemId": 650,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -60174,6 +62169,9 @@
   },
   {
     "Name": "Vade Retro",
+    "ItemId": 653,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -60272,6 +62270,9 @@
   },
   {
     "Name": "Spin to Win",
+    "ItemId": 655,
+    "IsActiveItem": true,
+    "Quality": 1,
     "Recipes": [
       {
         "Components": {
@@ -60359,6 +62360,9 @@
   },
   {
     "Name": "Jar of Wisps",
+    "ItemId": 685,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -60449,6 +62453,9 @@
   },
   {
     "Name": "Friend Finder",
+    "ItemId": 687,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -60541,6 +62548,9 @@
   },
   {
     "Name": "Esau Jr.",
+    "ItemId": 703,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -60629,6 +62639,9 @@
   },
   {
     "Name": "Berserk!",
+    "ItemId": 704,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -60730,6 +62743,9 @@
   },
   {
     "Name": "Dark Arts",
+    "ItemId": 705,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -60824,6 +62840,9 @@
   },
   {
     "Name": "Abyss",
+    "ItemId": 706,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -60926,6 +62945,9 @@
   },
   {
     "Name": "Suplex!",
+    "ItemId": 709,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -61018,6 +63040,9 @@
   },
   {
     "Name": "Lemegeton",
+    "ItemId": 712,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -61116,6 +63141,9 @@
   },
   {
     "Name": "Keeper's Box",
+    "ItemId": 719,
+    "IsActiveItem": true,
+    "Quality": 3,
     "Recipes": [
       {
         "Components": {
@@ -61211,6 +63239,9 @@
   },
   {
     "Name": "Everything Jar",
+    "ItemId": 720,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -61305,6 +63336,9 @@
   },
   {
     "Name": "Anima Sola",
+    "ItemId": 722,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -61390,6 +63424,9 @@
   },
   {
     "Name": "Spindown Dice",
+    "ItemId": 723,
+    "IsActiveItem": true,
+    "Quality": 4,
     "Recipes": [
       {
         "Components": {
@@ -61489,6 +63526,9 @@
   },
   {
     "Name": "Gello",
+    "ItemId": 728,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {
@@ -61580,6 +63620,9 @@
   },
   {
     "Name": "Decap Attack",
+    "ItemId": 729,
+    "IsActiveItem": true,
+    "Quality": 2,
     "Recipes": [
       {
         "Components": {

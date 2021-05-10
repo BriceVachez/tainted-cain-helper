@@ -64,6 +64,12 @@
   <ItemGroup>
     <Compile Include="CainWikiScraper.cs" />
     <Compile Include="ItemManager.cs" />
+    <Compile Include="LibraryItemPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LibraryPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="LibraryWindow.cs">
       <SubType>Form</SubType>
     </Compile>

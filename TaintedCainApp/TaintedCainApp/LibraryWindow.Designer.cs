@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LibraryWindow));
-            this.showcasePanel = new System.Windows.Forms.Panel();
+            this.showcasePanel = new LibraryPanel();
             this.leaveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -37,7 +37,7 @@
             // 
             this.showcasePanel.Location = new System.Drawing.Point(21, 23);
             this.showcasePanel.Name = "showcasePanel";
-            this.showcasePanel.Size = new System.Drawing.Size(587, 100);
+            this.showcasePanel.Size = new System.Drawing.Size(500, 96);
             this.showcasePanel.TabIndex = 0;
             this.showcasePanel.AutoScroll = true;
             this.showcasePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.showcasePanel_Paint);
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel showcasePanel;
+        private LibraryPanel showcasePanel;
         private System.Windows.Forms.Button leaveButton;
     }
 }

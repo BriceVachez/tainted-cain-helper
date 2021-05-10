@@ -8,6 +8,7 @@ namespace TaintedCainApp
     public class ItemManager
     {
         private static List<Item> items = new List<Item>();
+        public static List<Item> Items { get => items; }
 
         public static void ReadItemsFromFile(String path = "../../../../data/items.json")
         {

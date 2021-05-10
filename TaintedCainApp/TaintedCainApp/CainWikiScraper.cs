@@ -6,6 +6,8 @@ using ScrapySharp.Network;
 using System.Net;
 using System.Text.RegularExpressions;
 
+using System.Threading.Tasks;
+
 namespace TaintedCainApp
 {
     public class CainWikiScraper
@@ -13,11 +15,14 @@ namespace TaintedCainApp
         private static ScrapingBrowser _browser = new ScrapingBrowser();
         public static void GenerateItemsFromUrl(String url, List<Item> itemsList)
         {
+            Console.WriteLine("Coucou html1");
             HtmlNode webPage = GetHtml(url);
+            Console.WriteLine("Coucou html2");
             if (webPage == null)
             {
                 throw new WebException("The requested URL : " + url + " is unreachable.");
             }
+            Console.WriteLine("Coucou html3");
 
             HtmlNodeCollection itemsOnPage = webPage.SelectNodes(
                 ".//table[contains(@class, 'sortable')]/tbody/tr[position()>1]"
@@ -34,8 +39,10 @@ namespace TaintedCainApp
         {
             try
             {
-                WebPage webpage = _browser.NavigateToPage(new Uri(url));
-                return webpage.Html;
+                HtmlWeb web = new HtmlWeb();
+                HtmlDocument doc = web.Load(url);
+                HtmlNode rootNode = doc.DocumentNode;
+                return rootNode;
             }
             catch (AggregateException)
             {

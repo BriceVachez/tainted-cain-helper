@@ -7,7 +7,6 @@ using TaintedCainApp;
 namespace AppUnitTesting
 {
     [TestClass]
-
     public class ItemFactoryTests
     {
         #region CreateItem()
@@ -16,7 +15,7 @@ namespace AppUnitTesting
             "Parameter _name cannot be null.")]
         public void T_CreateItem_NameIsNull()
         {
-            ItemFactory.CreateItem(null, new List<Recipe>());
+            ItemFactory.CreateItem(null, 1, 0, false, new List<Recipe>());
         }
 
         [TestMethod]
@@ -24,7 +23,7 @@ namespace AppUnitTesting
             "Parameter _recipes cannot be null.")]
         public void T_CreateItem_ListIsNull()
         {
-            ItemFactory.CreateItem("foo", null);
+            ItemFactory.CreateItem("foo", 1, 3, false, null);
         }
 
         [TestMethod]
@@ -32,7 +31,7 @@ namespace AppUnitTesting
             "Parameter _name cannot be null.")]
         public void T_CreateItem_BothNull()
         {
-            ItemFactory.CreateItem(null, null);
+            ItemFactory.CreateItem(null, 1, 2, false, null);
         }
 
         [TestMethod]
@@ -40,7 +39,7 @@ namespace AppUnitTesting
             "Parameter _name cannot be empty.")]
         public void T_CreateItem_NameEmpty()
         {
-            ItemFactory.CreateItem(String.Empty, new List<Recipe>());
+            ItemFactory.CreateItem(String.Empty, 1, 4, false, new List<Recipe>());
         }
 
         [TestMethod]
@@ -48,7 +47,7 @@ namespace AppUnitTesting
             "Parameter _name cannot be empty.")]
         public void T_CreateItem_NameEmptyListNull()
         {
-            ItemFactory.CreateItem("", null);
+            ItemFactory.CreateItem("", 1, 3, false, null);
         }
 
         [TestMethod]
@@ -67,7 +66,23 @@ namespace AppUnitTesting
 
             List<Recipe> recipes = new List<Recipe> { recipe };
 
-            ItemFactory.CreateItem("foo", recipes);
+            ItemFactory.CreateItem("foo", 1, 0, false, recipes);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),
+            "The parameter _quality must be between 0 and 4. Found : 5")]
+        public void T_CreateItem_InvalidQuality()
+        {
+            Dictionary<PickUp, int> components = new Dictionary<PickUp, int>();
+            components.Add(PickUp.BoneHeart, 2);
+            components.Add(PickUp.RedHeart, 2);
+            components.Add(PickUp.SoulHeart, 2);
+            Recipe recipe = new Recipe(components);
+
+            List<Recipe> recipes = new List<Recipe> { recipe };
+
+            ItemFactory.CreateItem("foo", 1, 5, false, recipes);
         }
 
         [TestMethod]
@@ -81,7 +96,7 @@ namespace AppUnitTesting
 
             List<Recipe> recipes = new List<Recipe> { recipe };
 
-            ItemFactory.CreateItem("foo", recipes);
+            ItemFactory.CreateItem("foo", 1, 2, false, recipes);
         }
         #endregion
     }

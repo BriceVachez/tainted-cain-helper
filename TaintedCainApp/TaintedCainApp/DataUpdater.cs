@@ -19,22 +19,19 @@ namespace TaintedCainApp
         public static void GenerateItemsFromWiki()
         {
             List<Item> items = new List<Item>();
-            Console.WriteLine("Coucou 1");
             foreach(String url in urls)
             {
-                Console.WriteLine("Coucou 2.1");
                 CainWikiScraper.GenerateItemsFromUrl(url, items);
-                Console.WriteLine("Coucou 2.2");
             }
-            Console.WriteLine("Coucou 3");
             GenerateItemFile(items);
-            Console.WriteLine("Coucou 4");
         }
 
-        private static void GenerateItemFile(List<Item> items)
+        private static void GenerateItemFile(
+            List<Item> items, 
+            String path = "../../../../data/items.json")
         {
             String json = JsonConvert.SerializeObject(items, Formatting.Indented);
-            File.WriteAllText("../../../../data/items.json", json);
+            File.WriteAllText(path, json);
         }
     }
 }

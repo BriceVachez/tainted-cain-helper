@@ -8,7 +8,11 @@ namespace TaintedCainApp
 {
     public class ItemFactory
     {
-        public static Item CreateItem(String _name, List<Recipe> _recipes)
+        public static Item CreateItem(String _name, 
+            int _itemId, 
+            int _quality,
+            bool _isActiveItem, 
+            List<Recipe> _recipes)
         {
             #region Exceptions
             if (_name == null)
@@ -26,6 +30,14 @@ namespace TaintedCainApp
                 throw new ArgumentNullException("Parameter _recipes cannot be null.");
             }
 
+            if(_quality < 0 || _quality > 4)
+            {
+                throw new ArgumentException(
+                    "Parameter _quality must be between 0 and 4. Found " +
+                    _quality.ToString()
+                    );
+            }
+
             foreach(Recipe recipe in _recipes) {
                 if(!recipe.IsValid())
                 {
@@ -35,7 +47,7 @@ namespace TaintedCainApp
             }
             #endregion
 
-            return new Item(_name, _recipes);
+            return new Item(_name, _itemId, _quality, _isActiveItem, _recipes);
         }
     }
 }

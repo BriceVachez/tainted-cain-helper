@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace TaintedCainApp
 {
-    public partial class MainAppWindow : Form
+    public partial class LibraryWindow : Form
     {
-        public MainAppWindow()
+        public LibraryWindow()
         {
             InitializeComponent();
-        }
-
-        private void library_Click_Click(object sender, EventArgs e)
-        {
-            using (LibraryWindow libraryWindow = new LibraryWindow())
-            {
-                libraryWindow.ShowDialog(this);
-            }
         }
     }
 }

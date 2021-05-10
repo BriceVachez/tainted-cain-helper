@@ -39,6 +39,7 @@ namespace TaintedCainApp
             }
             state = State.UpdatingDataState;
             DataUpdater.GenerateItemsFromWiki();
+            DataUpdater.GeneratePickupImages();
             state = State.InitialState;
         }
 

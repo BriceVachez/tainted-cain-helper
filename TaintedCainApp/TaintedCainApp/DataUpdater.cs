@@ -26,6 +26,11 @@ namespace TaintedCainApp
             GenerateItemFile(items);
         }
 
+        public static void GeneratePickupImages()
+        {
+            CainWikiScraper.GeneratePickupImages(urls[0]);
+        }
+
         private static void GenerateItemFile(
             List<Item> items, 
             String path = "../../../../data/items.json")

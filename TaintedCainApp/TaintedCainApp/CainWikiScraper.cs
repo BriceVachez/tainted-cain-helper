@@ -12,9 +12,14 @@ namespace TaintedCainApp
 {
     public class CainWikiScraper
     {
+        #region Attributes
         private static ScrapingBrowser _browser = new ScrapingBrowser();
+        private static WebClient _client = new WebClient();
 
         private static String itemsUrl = "https://bindingofisaacrebirth.fandom.com/wiki/Items";
+        #endregion
+
+        #region Public Methods
         public static void GenerateItemsFromUrl(String url, List<Item> itemsList)
         {
             HtmlNode recipeWebPage = GetHtml(url);
@@ -43,6 +48,39 @@ namespace TaintedCainApp
             }
         }
 
+        public static void GeneratePickupImages(String url)
+        {
+            HtmlNode pickupsWebPage = GetHtml(url);
+            if (pickupsWebPage == null)
+            {
+                throw new WebException("The requested URL : " + pickupsWebPage + " is unreachable.");
+            }
+
+            String xpath;
+            foreach(int pickup in Enum.GetValues(typeof(PickUp)))
+            {
+                xpath = "//img[contains(@alt, '(" + pickup + "')]";
+                String imageUrl = pickupsWebPage.
+                    SelectSingleNode(xpath).
+                    GetAttributeValue("src", String.Empty);
+
+                try
+                {
+                    _client.DownloadFile(imageUrl,
+                        "../../../../data/Images/Pickups/" +
+                        pickup.ToString() +
+                        ".png");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        #endregion
+
+        #region Private Methods
+
         private static HtmlNode GetHtml(String url)
         {
             try
@@ -68,6 +106,8 @@ namespace TaintedCainApp
             String name = GetName(cells[0]);
             // Get id
             int itemId = GetId(cells[1]);
+            // Download image
+            GetItemImage(itemPageRootNode, itemId);
             // Get quality
             int quality = GetQuality(itemPageRootNode, itemId);
             // Get recipes
@@ -99,7 +139,6 @@ namespace TaintedCainApp
         private static int GetQuality(HtmlNode itemPageRootNode, int id)
         {
             String xpath = "//tr[td[@data-sort-value='" + id + "']]/td[last()]";
-            Console.WriteLine(xpath);
             HtmlNode qualityNode = itemPageRootNode.SelectSingleNode(xpath);
             return Int32.Parse(qualityNode.InnerText);
         }
@@ -129,5 +168,25 @@ namespace TaintedCainApp
             }
             return recipes;
         }
+
+        private static void GetItemImage(HtmlNode itemPageRootNode, int itemId)
+        {
+            String xpath = "//tr[td[@data-sort-value='" + itemId + "']]/td[3]//img";
+            HtmlNode imageNode = itemPageRootNode.SelectSingleNode(xpath);
+
+            String url = imageNode.GetAttributeValue("src", String.Empty);
+            try
+            {
+                _client.DownloadFile(url,
+                    "../../../../data/Images/Items/" +
+                    itemId.ToString() +
+                    ".png");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        #endregion
     }
 }

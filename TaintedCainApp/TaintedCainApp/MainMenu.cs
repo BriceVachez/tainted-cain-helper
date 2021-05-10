@@ -62,6 +62,9 @@ namespace TaintedCainApp
             displayThread.Start();
             ItemManager.ReadItemsFromFile();
             state = State.ReadyState;
+            MainAppWindow mainWindow = new MainAppWindow();
+            mainWindow.Show();
+            this.Hide();
         }
 
         private void DisplayLoadingState()
@@ -74,7 +77,6 @@ namespace TaintedCainApp
                     "/" +
                     numberOfItems.ToString());
             }
-            ItemManager.DisplayAllItems();
         }
 
         private void UpdateLabel(String newText)

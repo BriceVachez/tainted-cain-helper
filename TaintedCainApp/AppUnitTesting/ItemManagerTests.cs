@@ -103,17 +103,21 @@ namespace AppUnitTesting
         }
 
         [TestMethod]
-        [ExpectedException(typeof(DirectoryNotFoundException))]
         public void T_GetTotalNumberOfItems_NoDirectory()
         {
-            ItemManager.GetTotalNumberOfItems("test/items.json");
+            int expected = 0;
+            Assert.AreEqual(
+                expected,
+                ItemManager.GetTotalNumberOfItems("test/items.json"));
         }
 
         [TestMethod]
-        [ExpectedException(typeof(FileNotFoundException))]
         public void T_GetTotalNumberOfItems_NoFile()
         {
-            ItemManager.GetTotalNumberOfItems("../../../../../data/test/item.json");
+            int expected = 0;
+            Assert.AreEqual(
+                expected,
+                ItemManager.GetTotalNumberOfItems("../../../../../data/test/item.json"));
         }
         #endregion
     }

@@ -21,6 +21,9 @@ namespace TaintedCainApp
 
         public LibraryWindow()
         {
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             InitializeComponent();
             LoadNumberRadioButtons();
             LoadSortRadioButtons();

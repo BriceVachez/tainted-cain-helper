@@ -22,6 +22,9 @@ namespace TaintedCainApp
         {
             state = State.InitialState;
             numberOfItems = 0;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             InitializeComponent();
         }
 

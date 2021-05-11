@@ -17,6 +17,9 @@ namespace TaintedCainApp
         {
             openingForm = callingForm;
             FormClosing += new FormClosingEventHandler(MainAppWindow_FormClosing);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             InitializeComponent();
         }
 

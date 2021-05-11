@@ -128,9 +128,9 @@
             // showcasePanel
             // 
             this.showcasePanel.AutoScroll = true;
-            this.showcasePanel.Location = new System.Drawing.Point(20, 20);
+            this.showcasePanel.Location = new System.Drawing.Point(20, 12);
             this.showcasePanel.Name = "showcasePanel";
-            this.showcasePanel.Size = new System.Drawing.Size(750, 200);
+            this.showcasePanel.Size = new System.Drawing.Size(750, 208);
             this.showcasePanel.TabIndex = 0;
             this.showcasePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.showcasePanel_Paint);
             // 

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
 
@@ -13,7 +11,8 @@ namespace TaintedCainApp
         public enum SortType
         {
             Id,
-            Quality
+            Quality,
+            Name
         };
 
         private Dictionary<Item, LibraryItemPanel> itemPanels;
@@ -37,7 +36,6 @@ namespace TaintedCainApp
 
             itemPanels = new Dictionary<Item, LibraryItemPanel>();
 
-            int location = 0;
             foreach (Item item in ItemManager.Items)
             {
                 LibraryItemPanel itemPanel = new LibraryItemPanel(item);
@@ -60,6 +58,9 @@ namespace TaintedCainApp
                 case SortType.Quality:
                     SortByQuality();
                     break;
+                case SortType.Name:
+                    SortByName();
+                    break;
                 default:
                     Console.WriteLine("Not implemented yet.");
                     break;
@@ -74,6 +75,7 @@ namespace TaintedCainApp
             Display();
         }
 
+        #region Sorting
         private void SortById()
         {
             sortedPanels.Clear();
@@ -100,6 +102,25 @@ namespace TaintedCainApp
             }
         }
 
+        private void SortByName()
+        {
+            sortedPanels.Clear();
+
+            List<Item> itemList = itemPanels.Keys.ToList();
+
+            itemList.Sort(
+                delegate (Item item1, Item item2)
+                {
+                    return item1.Name.CompareTo(item2.Name);
+                }
+            );
+
+            foreach(Item item in itemList)
+            {
+                sortedPanels.Add(itemPanels[item]);
+            }
+        }
+        #endregion
 
         public Tuple<bool, bool> GetButtonActivationState()
         {

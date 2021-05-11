@@ -8,6 +8,7 @@ namespace TaintedCainApp
     public class ItemManager
     {
         private static List<Item> items = new List<Item>();
+        public static List<Item> Items { get => items; }
 
         public static void ReadItemsFromFile(String path = "../../../../data/items.json")
         {
@@ -89,6 +90,16 @@ namespace TaintedCainApp
             int removed = items.Count;
             items.Clear();
             return removed;
+        }
+
+        public static int GetMaximumItemQuality()
+        {
+            int maxQuality = 0;
+            foreach(Item item in items)
+            {
+                maxQuality = Math.Max(maxQuality, item.Quality);
+            }
+            return maxQuality;
         }
     }
 }

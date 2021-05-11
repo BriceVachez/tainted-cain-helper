@@ -22,6 +22,9 @@ namespace TaintedCainApp
         {
             state = State.InitialState;
             numberOfItems = 0;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             InitializeComponent();
         }
 
@@ -62,6 +65,9 @@ namespace TaintedCainApp
             displayThread.Start();
             ItemManager.ReadItemsFromFile();
             state = State.ReadyState;
+            MainAppWindow mainWindow = new MainAppWindow(this);
+            mainWindow.Show();
+            this.Hide();
         }
 
         private void DisplayLoadingState()
@@ -74,7 +80,6 @@ namespace TaintedCainApp
                     "/" +
                     numberOfItems.ToString());
             }
-            ItemManager.DisplayAllItems();
         }
 
         private void UpdateLabel(String newText)

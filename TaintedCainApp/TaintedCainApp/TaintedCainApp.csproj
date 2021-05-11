@@ -91,9 +91,15 @@
     <Compile Include="Item.cs" />
     <Compile Include="ItemFactory.cs" />
     <Compile Include="DataUpdater.cs" />
+    <Compile Include="PickUpCounterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipe.cs" />
+    <Compile Include="SinglePickUpPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="LibraryWindow.resx">
       <DependentUpon>LibraryWindow.cs</DependentUpon>
     </EmbeddedResource>

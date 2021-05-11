@@ -40,5 +40,21 @@ namespace TaintedCainApp
         {
             openingForm.Close();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void generateButton_Click(object sender, EventArgs e)
+        {
+            Dictionary<PickUp, int> pickUps = pickUpCounterPanel.GetAllPickUps();
+            foreach (KeyValuePair<PickUp, int> pickUp in pickUps)
+            {
+                Console.WriteLine(pickUp.Key.ToString() + " : " + pickUp.Value);
+            }
+        }
+
+
     }
 }

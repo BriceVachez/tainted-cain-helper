@@ -91,5 +91,15 @@ namespace TaintedCainApp
             items.Clear();
             return removed;
         }
+
+        public static int GetMaximumItemQuality()
+        {
+            int maxQuality = 0;
+            foreach(Item item in items)
+            {
+                maxQuality = Math.Max(maxQuality, item.Quality);
+            }
+            return maxQuality;
+        }
     }
 }

@@ -22,12 +22,13 @@ namespace TaintedCainApp
         public LibraryWindow()
         {
             InitializeComponent();
-            LoadRadioButtons();
+            LoadNumberRadioButtons();
+            LoadSortRadioButtons();
             ChangeButtonState();
             UpdatePageLabel();
         }
 
-        private void LoadRadioButtons()
+        private void LoadNumberRadioButtons()
         {
 
             int location = 0;
@@ -49,6 +50,24 @@ namespace TaintedCainApp
             }
         }
 
+        private void LoadSortRadioButtons()
+        {
+            int location = 0;
+            foreach (String sortType in Enum.GetNames(typeof(LibraryPanel.SortType)))
+            {
+                RadioButton sortChoser = new RadioButton();
+                sortChoser.Text = sortType;
+
+                if (sortType == "Id")
+                {
+                    sortChoser.Checked = true;
+                }
+                sortChoser.Location = new Point(location, 0);
+                location += sortChoser.Width;
+                sortTypeChosingPanel.Controls.Add(sortChoser);
+            }
+        }
+
         private void showcasePanel_Paint(object sender, PaintEventArgs e)
         {
 
@@ -59,9 +78,9 @@ namespace TaintedCainApp
 
         }
 
-        private void nextPage_Click(object sender, EventArgs e)
+        private void firstPage_Click(object sender, EventArgs e)
         {
-            showcasePanel.NextPage();
+            showcasePanel.FirstPage();
             ChangeButtonState();
             UpdatePageLabel();
         }
@@ -71,24 +90,39 @@ namespace TaintedCainApp
             showcasePanel.PreviousPage();
             ChangeButtonState();
             UpdatePageLabel();
+        }
 
+        private void nextPage_Click(object sender, EventArgs e)
+        {
+            showcasePanel.NextPage();
+            ChangeButtonState();
+            UpdatePageLabel();
+        }
+
+        private void lastPage_Click(object sender, EventArgs e)
+        {
+            showcasePanel.LastPage();
+            ChangeButtonState();
+            UpdatePageLabel();
         }
 
         private void UpdatePageLabel()
         {
             int page = showcasePanel.CurrentPage + 1;
             int maxPage = showcasePanel.MaxPage + 1;
-            pageLabel.Text = "Page " + 
-                page.ToString() + 
-                "/" + 
+            pageLabel.Text = "Page " +
+                page.ToString() +
+                "/" +
                 maxPage.ToString();
         }
 
         private void ChangeButtonState()
         {
             Tuple<bool, bool> buttonStates = showcasePanel.GetButtonActivationState();
+            firstPage.Enabled = buttonStates.Item1;
             previousPage.Enabled = buttonStates.Item1;
             nextPage.Enabled = buttonStates.Item2;
+            lastPage.Enabled = buttonStates.Item2;
         }
 
         private void LibraryWindow_Load(object sender, EventArgs e)
@@ -103,17 +137,30 @@ namespace TaintedCainApp
 
         private void applyButton_Click(object sender, EventArgs e)
         {
-            var checkedButton = pageNumberChosingPanel.
+            RadioButton checkedPageButton = pageNumberChosingPanel.
+                Controls.
+                OfType<RadioButton>().
+                FirstOrDefault(radio => radio.Checked);
+            RadioButton checkedSortButton = sortTypeChosingPanel.
                 Controls.
                 OfType<RadioButton>().
                 FirstOrDefault(radio => radio.Checked);
 
+            showcasePanel.Sort(
+                (LibraryPanel.SortType)Enum.Parse(
+                    typeof(LibraryPanel.SortType),
+                    checkedSortButton.Text)
+                );
+
             showcasePanel.ChangeItemsPerPage(
-                Int32.Parse(checkedButton.Text));
+                Int32.Parse(checkedPageButton.Text));
 
             ChangeButtonState();
             UpdatePageLabel();
-            
+        }
+
+        private void sortTypeChosingPanel_Paint(object sender, PaintEventArgs e)
+        {
         }
     }
 }

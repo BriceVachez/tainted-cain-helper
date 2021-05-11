@@ -12,9 +12,9 @@ namespace TaintedCainApp
     {
         public enum SortType
         {
-            Id
+            Id,
+            Quality
         };
-
 
         private Dictionary<Item, LibraryItemPanel> itemPanels;
 
@@ -27,6 +27,7 @@ namespace TaintedCainApp
 
         private int maxPage;
         public int MaxPage { get => maxPage; }
+
         public LibraryPanel() : base()
         {
             itemsPerPage = 10;
@@ -53,6 +54,12 @@ namespace TaintedCainApp
                 case SortType.Id:
                     SortById();
                     break;
+                case SortType.Quality:
+                    SortByQuality();
+                    break;
+                default:
+                    Console.WriteLine("Not implemented yet.");
+                    break;
             }
         }
 
@@ -73,12 +80,36 @@ namespace TaintedCainApp
             }
         }
 
+        private void SortByQuality()
+        {
+            sortedPanels.Clear();
+            for(int quality = ItemManager.GetMaximumItemQuality();
+                quality >= 0;
+                --quality)
+            {
+                foreach(KeyValuePair<Item, LibraryItemPanel> itemPanel in itemPanels)
+                {
+                    if(itemPanel.Key.Quality == quality)
+                    {
+                        sortedPanels.Add(itemPanel.Value);
+                    }
+                }
+            }
+        }
+
+
         public Tuple<bool, bool> GetButtonActivationState()
         {
             return new Tuple<bool, bool>(
                 currentPage != 0,
                 currentPage != maxPage
                 );
+        }
+
+        public void FirstPage()
+        {
+            currentPage = 0;
+            Display();
         }
 
         public void PreviousPage()
@@ -90,6 +121,12 @@ namespace TaintedCainApp
         public void NextPage()
         {
             currentPage += 1;
+            Display();
+        }
+
+        public void LastPage()
+        {
+            currentPage = maxPage;
             Display();
         }
 

@@ -19,12 +19,18 @@ namespace TaintedCainApp
 
         private List<PictureBox> pickUpImages;
 
+        private Button firstRecipeButton;
+        private Button leftRecipeButton;
+        private Button rightRecipeButton;
+        private Button lastRecipeButton;
+
         public LibraryItemPanel(Item _item)
         {
-            Console.WriteLine("-------------------");
             item = _item;
             pickUpImages = new List<PictureBox>();
             currentRecipeIndex = 0;
+
+            int location = 0;
 
             itemPicture = new PictureBox();
             itemPicture.ImageLocation = "../../../../data/Images/Items/" +
@@ -32,7 +38,24 @@ namespace TaintedCainApp
                 ".png";
             itemPicture.SizeMode = PictureBoxSizeMode.AutoSize;
             Controls.Add(itemPicture);
-            Console.WriteLine(item.Name);
+            location += itemPicture.Width;
+
+            firstRecipeButton = new Button();
+            firstRecipeButton.Text = "<<";
+            firstRecipeButton.AutoSize = true;
+            firstRecipeButton.Location = new Point(location, 0);
+            firstRecipeButton.Click += new EventHandler(firstRecipeButton_Click);
+            Controls.Add(firstRecipeButton);
+            location += firstRecipeButton.Width;
+
+            leftRecipeButton = new Button();
+            leftRecipeButton.Text = "<";
+            leftRecipeButton.AutoSize = true;
+            leftRecipeButton.Location = new Point(location, 0);
+            leftRecipeButton.Click += new EventHandler(leftRecipeButton_Click);
+            Controls.Add(leftRecipeButton);
+            location += leftRecipeButton.Width;
+
             for (int i = 0; i < 8; ++i)
             {
                 PictureBox pickUpBox = new PictureBox();
@@ -42,12 +65,30 @@ namespace TaintedCainApp
                     );
                 pickUpBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 pickUpBox.Location = new Point(
-                    itemPicture.Width + 10 + i % 4 * pickUpBox.Width,
+                    location + i % 4 * pickUpBox.Width,
                     i / 4 * pickUpBox.Height);
-                Controls.Add(pickUpBox);
                 pickUpImages.Add(pickUpBox);
+                Controls.Add(pickUpBox);
             }
 
+            location += 2 * itemPicture.Width;
+
+            rightRecipeButton = new Button();
+            rightRecipeButton.Text = ">";
+            rightRecipeButton.AutoSize = true;
+            rightRecipeButton.Location = new Point(location, 0);
+            rightRecipeButton.Click += new EventHandler(rightRecipeButton_Click);
+            Controls.Add(rightRecipeButton);
+            location += rightRecipeButton.Width;
+
+            lastRecipeButton = new Button();
+            lastRecipeButton.Text = ">>";
+            lastRecipeButton.AutoSize = true;
+            lastRecipeButton.Location = new Point(location, 0);
+            lastRecipeButton.Click += new EventHandler(lastRecipeButton_Click);
+            Controls.Add(lastRecipeButton);
+
+            ChangeButtonState();
             LoadRecipe(currentRecipeIndex);
         }
 
@@ -55,17 +96,52 @@ namespace TaintedCainApp
         {
             Recipe recipeToDisplay = item.Recipes[recipeIndex];
             int pictureBoxIndex = 0;
-            foreach(KeyValuePair<PickUp, int> component in recipeToDisplay.Components)
+            foreach (KeyValuePair<PickUp, int> component in recipeToDisplay.Components)
             {
-                for(int i = 0; i < component.Value; ++i)
+                for (int i = 0; i < component.Value; ++i)
                 {
                     pickUpImages[pictureBoxIndex++].ImageLocation =
                         "../../../../data/Images/Pickups/" +
                         ((int)component.Key).ToString() +
                         ".png";
-                    Console.WriteLine(component.Key);
                 }
             }
+        }
+
+        private void firstRecipeButton_Click(object sender, EventArgs e)
+        {
+            currentRecipeIndex = 0;
+            LoadRecipe(currentRecipeIndex);
+            ChangeButtonState();
+        }
+
+        private void leftRecipeButton_Click(object sender, EventArgs e)
+        {
+            currentRecipeIndex -= 1;
+            LoadRecipe(currentRecipeIndex);
+            ChangeButtonState();
+        }
+
+        private void rightRecipeButton_Click(object sender, EventArgs e)
+        {
+            currentRecipeIndex += 1;
+            LoadRecipe(currentRecipeIndex);
+            ChangeButtonState();
+        }
+
+        private void lastRecipeButton_Click(object sender, EventArgs e)
+        {
+            currentRecipeIndex = item.Recipes.Count - 1;
+            LoadRecipe(currentRecipeIndex);
+            ChangeButtonState();
+        }
+
+        private void ChangeButtonState()
+        {
+            firstRecipeButton.Enabled = (currentRecipeIndex != 0);
+            leftRecipeButton.Enabled = (currentRecipeIndex != 0);
+            rightRecipeButton.Enabled = (currentRecipeIndex != item.Recipes.Count - 1);
+            lastRecipeButton.Enabled = (currentRecipeIndex != item.Recipes.Count - 1);
         }
     }
 }

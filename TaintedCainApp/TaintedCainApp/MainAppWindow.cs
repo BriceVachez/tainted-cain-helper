@@ -12,8 +12,11 @@ namespace TaintedCainApp
 {
     public partial class MainAppWindow : Form
     {
-        public MainAppWindow()
+        Form openingForm;
+        public MainAppWindow(Form callingForm)
         {
+            openingForm = callingForm;
+            FormClosing += new FormClosingEventHandler(MainAppWindow_FormClosing);
             InitializeComponent();
         }
 
@@ -23,6 +26,16 @@ namespace TaintedCainApp
             {
                 libraryWindow.ShowDialog(this);
             }
+        }
+
+        private void MainAppWindow_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainAppWindow_FormClosing(object sender, EventArgs e)
+        {
+            openingForm.Close();
         }
     }
 }

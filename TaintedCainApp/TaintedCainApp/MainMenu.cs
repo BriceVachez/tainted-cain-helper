@@ -62,7 +62,7 @@ namespace TaintedCainApp
             displayThread.Start();
             ItemManager.ReadItemsFromFile();
             state = State.ReadyState;
-            MainAppWindow mainWindow = new MainAppWindow();
+            MainAppWindow mainWindow = new MainAppWindow(this);
             mainWindow.Show();
             this.Hide();
         }

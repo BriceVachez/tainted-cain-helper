@@ -51,6 +51,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainAppWindow";
             this.Text = "Tainted Cain Companion";
+            this.Load += new System.EventHandler(this.MainAppWindow_Load);
             this.ResumeLayout(false);
 
         }

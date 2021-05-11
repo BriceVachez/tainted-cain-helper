@@ -21,6 +21,7 @@ namespace TaintedCainApp
 
         public LibraryItemPanel(Item _item)
         {
+            Console.WriteLine("-------------------");
             item = _item;
             pickUpImages = new List<PictureBox>();
             currentRecipeIndex = 0;
@@ -31,7 +32,7 @@ namespace TaintedCainApp
                 ".png";
             itemPicture.SizeMode = PictureBoxSizeMode.AutoSize;
             Controls.Add(itemPicture);
-
+            Console.WriteLine(item.Name);
             for (int i = 0; i < 8; ++i)
             {
                 PictureBox pickUpBox = new PictureBox();
@@ -62,6 +63,7 @@ namespace TaintedCainApp
                         "../../../../data/Images/Pickups/" +
                         ((int)component.Key).ToString() +
                         ".png";
+                    Console.WriteLine(component.Key);
                 }
             }
         }

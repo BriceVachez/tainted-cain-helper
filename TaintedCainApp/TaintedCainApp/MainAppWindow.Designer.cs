@@ -38,7 +38,7 @@
             // 
             this.library.Location = new System.Drawing.Point(-1, -1);
             this.library.Name = "library";
-            this.library.Size = new System.Drawing.Size(136, 23);
+            this.library.Size = new System.Drawing.Size(136, 30);
             this.library.TabIndex = 0;
             this.library.Text = "Library";
             this.library.UseVisualStyleBackColor = true;

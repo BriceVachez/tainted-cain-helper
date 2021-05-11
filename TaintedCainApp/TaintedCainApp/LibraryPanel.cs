@@ -10,15 +10,11 @@ namespace TaintedCainApp
 {
     public class LibraryPanel : Panel
     {
-        private List<int> availableItemsPerPage = new List<int>
+        public enum SortType
         {
-            10,
-            20,
-            50,
-            100,
-            200
+            Id
         };
-        //private List<LibraryItemPanel> itemPanels;
+
 
         private Dictionary<Item, LibraryItemPanel> itemPanels;
 
@@ -50,7 +46,25 @@ namespace TaintedCainApp
             Display();
         }
 
-        public void SortById()
+        public void Sort(SortType type)
+        {
+            switch (type)
+            {
+                case SortType.Id:
+                    SortById();
+                    break;
+            }
+        }
+
+        public void ChangeItemsPerPage(int newNumber)
+        {
+            itemsPerPage = newNumber;
+            currentPage = 0;
+            maxPage = ItemManager.Items.Count / itemsPerPage;
+            Display();
+        }
+
+        private void SortById()
         {
             sortedPanels.Clear();
             foreach (KeyValuePair<Item, LibraryItemPanel> pair in itemPanels)

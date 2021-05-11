@@ -34,6 +34,8 @@
             this.nextPage = new System.Windows.Forms.Button();
             this.previousPage = new System.Windows.Forms.Button();
             this.pageLabel = new System.Windows.Forms.Label();
+            this.pageNumberChosingPanel = new System.Windows.Forms.Panel();
+            this.applyButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // showcasePanel
@@ -83,11 +85,31 @@
             this.pageLabel.Size = new System.Drawing.Size(0, 17);
             this.pageLabel.TabIndex = 4;
             // 
+            // pageNumberChosingPanel
+            // 
+            this.pageNumberChosingPanel.Location = new System.Drawing.Point(20, 267);
+            this.pageNumberChosingPanel.Name = "pageNumberChosingPanel";
+            this.pageNumberChosingPanel.Size = new System.Drawing.Size(500, 26);
+            this.pageNumberChosingPanel.TabIndex = 5;
+            this.pageNumberChosingPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.pageNumberChosingPanel_Paint);
+            // 
+            // applyButton
+            // 
+            this.applyButton.Location = new System.Drawing.Point(445, 345);
+            this.applyButton.Name = "applyButton";
+            this.applyButton.Size = new System.Drawing.Size(75, 23);
+            this.applyButton.TabIndex = 6;
+            this.applyButton.Text = "Apply";
+            this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
+            // 
             // LibraryWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.applyButton);
+            this.Controls.Add(this.pageNumberChosingPanel);
             this.Controls.Add(this.pageLabel);
             this.Controls.Add(this.previousPage);
             this.Controls.Add(this.nextPage);
@@ -109,5 +131,7 @@
         private System.Windows.Forms.Button nextPage;
         private System.Windows.Forms.Button previousPage;
         private System.Windows.Forms.Label pageLabel;
+        private System.Windows.Forms.Panel pageNumberChosingPanel;
+        private System.Windows.Forms.Button applyButton;
     }
 }

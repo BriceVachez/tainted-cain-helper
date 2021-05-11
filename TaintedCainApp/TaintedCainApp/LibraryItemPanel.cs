@@ -19,6 +19,10 @@ namespace TaintedCainApp
 
         private List<PictureBox> pickUpImages;
 
+        private Label nameLabel;
+
+        private Label qualityLabel;
+
         private Button firstRecipeButton;
         private Button leftRecipeButton;
         private Button rightRecipeButton;
@@ -40,6 +44,14 @@ namespace TaintedCainApp
             itemPicture.SizeMode = PictureBoxSizeMode.Zoom;
             Controls.Add(itemPicture);
             location += itemPicture.Width;
+
+            nameLabel = new Label();
+            nameLabel.Text = item.Name;
+            nameLabel.TextAlign = ContentAlignment.MiddleCenter;
+            nameLabel.Size = new Size(96, 32);
+            nameLabel.Location = new Point(location, 0);
+            Controls.Add(nameLabel);
+            location += nameLabel.Width;
 
             firstRecipeButton = new Button();
             firstRecipeButton.Text = "<<";
@@ -85,6 +97,14 @@ namespace TaintedCainApp
             lastRecipeButton.Location = new Point(location, 0);
             lastRecipeButton.Click += new EventHandler(lastRecipeButton_Click);
             Controls.Add(lastRecipeButton);
+            location += lastRecipeButton.Width;
+
+            qualityLabel = new Label();
+            qualityLabel.Text = item.Quality.ToString();
+            qualityLabel.TextAlign = ContentAlignment.MiddleCenter;
+            qualityLabel.Size = new Size(32, 32);
+            qualityLabel.Location = new Point(location, 0);
+            Controls.Add(qualityLabel);
 
             ChangeButtonState();
             LoadRecipe(currentRecipeIndex);

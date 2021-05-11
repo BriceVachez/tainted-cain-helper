@@ -76,7 +76,7 @@
             this.pageLabel.AutoSize = true;
             this.pageLabel.Location = new System.Drawing.Point(373, 231);
             this.pageLabel.Name = "pageLabel";
-            this.pageLabel.Size = new System.Drawing.Size(75, 17);
+            this.pageLabel.Size = new System.Drawing.Size(0, 17);
             this.pageLabel.TabIndex = 4;
             // 
             // pageNumberChosingPanel
@@ -130,7 +130,7 @@
             this.showcasePanel.AutoScroll = true;
             this.showcasePanel.Location = new System.Drawing.Point(20, 20);
             this.showcasePanel.Name = "showcasePanel";
-            this.showcasePanel.Size = new System.Drawing.Size(757, 200);
+            this.showcasePanel.Size = new System.Drawing.Size(750, 200);
             this.showcasePanel.TabIndex = 0;
             this.showcasePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.showcasePanel_Paint);
             // 

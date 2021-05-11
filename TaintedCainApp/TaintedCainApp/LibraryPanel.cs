@@ -30,16 +30,19 @@ namespace TaintedCainApp
 
         public LibraryPanel() : base()
         {
-            itemsPerPage = 10;
             currentPage = 0;
+            itemsPerPage = 10;
             maxPage = ItemManager.Items.Count / itemsPerPage;
             sortedPanels = new List<LibraryItemPanel>();
 
             itemPanels = new Dictionary<Item, LibraryItemPanel>();
+
+            int location = 0;
             foreach (Item item in ItemManager.Items)
             {
                 LibraryItemPanel itemPanel = new LibraryItemPanel(item);
-                itemPanel.AutoSize = true;
+                itemPanel.Size = new Size(750, 32);
+                itemPanel.Scale(new SizeF(1, 1));
                 itemPanels.Add(item, itemPanel);
             }
 
@@ -83,13 +86,13 @@ namespace TaintedCainApp
         private void SortByQuality()
         {
             sortedPanels.Clear();
-            for(int quality = ItemManager.GetMaximumItemQuality();
+            for (int quality = ItemManager.GetMaximumItemQuality();
                 quality >= 0;
                 --quality)
             {
-                foreach(KeyValuePair<Item, LibraryItemPanel> itemPanel in itemPanels)
+                foreach (KeyValuePair<Item, LibraryItemPanel> itemPanel in itemPanels)
                 {
-                    if(itemPanel.Key.Quality == quality)
+                    if (itemPanel.Key.Quality == quality)
                     {
                         sortedPanels.Add(itemPanel.Value);
                     }
@@ -153,9 +156,9 @@ namespace TaintedCainApp
             for (int i = currentPage * itemsPerPage; i < maxIndex; ++i)
             {
                 LibraryItemPanel toAdd = sortedPanels[i];
-                toAdd.Location = new Point(0, location);
 
-                location += toAdd.Height;
+                toAdd.Location = new Point(0, location);
+                location += toAdd.Height * 3/2;
                 Controls.Add(toAdd);
             }
         }

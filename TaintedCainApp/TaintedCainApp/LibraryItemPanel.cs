@@ -36,13 +36,14 @@ namespace TaintedCainApp
             itemPicture.ImageLocation = "../../../../data/Images/Items/" +
                 item.ItemId.ToString() +
                 ".png";
-            itemPicture.SizeMode = PictureBoxSizeMode.AutoSize;
+            itemPicture.Size = new Size(32, 32);
+            itemPicture.SizeMode = PictureBoxSizeMode.Zoom;
             Controls.Add(itemPicture);
             location += itemPicture.Width;
 
             firstRecipeButton = new Button();
             firstRecipeButton.Text = "<<";
-            firstRecipeButton.AutoSize = true;
+            firstRecipeButton.Size = new Size(64, 32);
             firstRecipeButton.Location = new Point(location, 0);
             firstRecipeButton.Click += new EventHandler(firstRecipeButton_Click);
             Controls.Add(firstRecipeButton);
@@ -50,7 +51,7 @@ namespace TaintedCainApp
 
             leftRecipeButton = new Button();
             leftRecipeButton.Text = "<";
-            leftRecipeButton.AutoSize = true;
+            leftRecipeButton.Size = new Size(64, 32);
             leftRecipeButton.Location = new Point(location, 0);
             leftRecipeButton.Click += new EventHandler(leftRecipeButton_Click);
             Controls.Add(leftRecipeButton);
@@ -59,11 +60,8 @@ namespace TaintedCainApp
             for (int i = 0; i < 8; ++i)
             {
                 PictureBox pickUpBox = new PictureBox();
-                pickUpBox.Size = new Size(
-                    itemPicture.Width / 2,
-                    itemPicture.Height / 2
-                    );
-                pickUpBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                pickUpBox.Size = new Size(16, 16);
+                pickUpBox.SizeMode = PictureBoxSizeMode.Zoom;
                 pickUpBox.Location = new Point(
                     location + i % 4 * pickUpBox.Width,
                     i / 4 * pickUpBox.Height);
@@ -75,7 +73,7 @@ namespace TaintedCainApp
 
             rightRecipeButton = new Button();
             rightRecipeButton.Text = ">";
-            rightRecipeButton.AutoSize = true;
+            rightRecipeButton.Size = new Size(64, 32);
             rightRecipeButton.Location = new Point(location, 0);
             rightRecipeButton.Click += new EventHandler(rightRecipeButton_Click);
             Controls.Add(rightRecipeButton);
@@ -83,7 +81,7 @@ namespace TaintedCainApp
 
             lastRecipeButton = new Button();
             lastRecipeButton.Text = ">>";
-            lastRecipeButton.AutoSize = true;
+            lastRecipeButton.Size = new Size(64, 32);
             lastRecipeButton.Location = new Point(location, 0);
             lastRecipeButton.Click += new EventHandler(lastRecipeButton_Click);
             Controls.Add(lastRecipeButton);

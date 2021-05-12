@@ -12,7 +12,7 @@ namespace TaintedCainApp.Util
         private static List<Item> items = new List<Item>();
         public static List<Item> Items { get => items; }
 
-        public static void ReadItemsFromFile(String path = "../../../../data/items.json")
+        public static void ReadItemsFromFile(String path = "../data/items.json")
         {
             String json;
             try
@@ -52,7 +52,7 @@ namespace TaintedCainApp.Util
             }
         }
 
-        public static int GetTotalNumberOfItems(String path = "../../../../data/items.json")
+        public static int GetTotalNumberOfItems(String path = "../data/items.json")
         {
             String json;
             try

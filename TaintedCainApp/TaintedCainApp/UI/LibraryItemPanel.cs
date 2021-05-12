@@ -36,7 +36,7 @@ namespace TaintedCainApp.UI
             int location = 0;
 
             itemPicture = new PictureBox();
-            itemPicture.ImageLocation = "../../../../data/Images/Items/" +
+            itemPicture.ImageLocation = "../data/Images/Items/" +
                 item.ItemId.ToString() +
                 ".png";
             itemPicture.Size = new Size(32, 32);
@@ -118,7 +118,7 @@ namespace TaintedCainApp.UI
                 for (int i = 0; i < component.Value; ++i)
                 {
                     pickUpImages[pictureBoxIndex++].ImageLocation =
-                        "../../../../data/Images/Pickups/" +
+                        "../data/Images/Pickups/" +
                         ((int)component.Key).ToString() +
                         ".png";
                 }

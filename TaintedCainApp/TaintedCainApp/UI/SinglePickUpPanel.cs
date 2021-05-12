@@ -22,7 +22,7 @@ namespace TaintedCainApp.UI
             pickUp = _pickUp;
 
             pickUpImage = new PictureBox();
-            pickUpImage.ImageLocation = "../../../../data/Images/Pickups/" +
+            pickUpImage.ImageLocation = "../data/Images/Pickups/" +
                 (int)pickUp +
                 ".png";
 

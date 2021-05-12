@@ -66,7 +66,7 @@ namespace TaintedCainApp.Util
                 try
                 {
                     _client.DownloadFile(imageUrl,
-                        "../../../../data/Images/Pickups/" +
+                        "../data/Images/Pickups/" +
                         pickup.ToString() +
                         ".png");
                 }
@@ -177,7 +177,7 @@ namespace TaintedCainApp.Util
             try
             {
                 _client.DownloadFile(url,
-                    "../../../../data/Images/Items/" +
+                    "../data/Images/Items/" +
                     itemId.ToString() +
                     ".png");
             }

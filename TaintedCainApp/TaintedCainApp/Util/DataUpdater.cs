@@ -35,7 +35,7 @@ namespace TaintedCainApp.Util
 
         private static void GenerateItemFile(
             List<Item> items, 
-            String path = "../../../../data/items.json")
+            String path = "../data/items.json")
         {
             String json = JsonConvert.SerializeObject(items, Formatting.Indented);
             File.WriteAllText(path, json);

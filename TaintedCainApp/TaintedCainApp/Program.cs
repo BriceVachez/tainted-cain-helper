@@ -16,8 +16,8 @@ namespace TaintedCainApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Directory.CreateDirectory("../../../../data/Images/Items");
-            Directory.CreateDirectory("../../../../data/Images/Pickups");
+            Directory.CreateDirectory("../data/Images/Items");
+            Directory.CreateDirectory("../data/Images/Pickups");
 
             UI.MainMenu mainMenu = new UI.MainMenu();
             Application.Run(mainMenu);

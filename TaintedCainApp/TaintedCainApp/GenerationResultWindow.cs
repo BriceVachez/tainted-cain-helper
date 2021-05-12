@@ -16,6 +16,9 @@ namespace TaintedCainApp
         public GenerationResultWindow(ItemNode _root)
         {
             root = _root;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             InitializeComponent();
         }
 

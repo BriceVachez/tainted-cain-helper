@@ -138,7 +138,7 @@ namespace TaintedCainApp
                         RemovePickUpsFromRecipe(pickUps, recipe);
 
                         item.IsMarked = true;
-                        GenerateTree(availableItems, pickUps, child, false, true);
+                        GenerateTree(availableItems, pickUps, child, false, includeDuplicate);
                         item.IsMarked = false;
 
                         AddPickUpsFromRecipe(pickUps, recipe);

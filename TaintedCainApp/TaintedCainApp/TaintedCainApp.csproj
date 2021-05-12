@@ -62,67 +62,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CainWikiScraper.cs" />
-    <Compile Include="GenerationResultWindow.cs">
+    <Compile Include="Util\CainWikiScraper.cs" />
+    <Compile Include="Model\ItemNode.cs" />
+    <Compile Include="UI\GenerationResultWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GenerationResultWindow.Designer.cs">
+    <Compile Include="UI\GenerationResultWindow.Designer.cs">
       <DependentUpon>GenerationResultWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="ItemManager.cs" />
-    <Compile Include="ItemNode.cs" />
-    <Compile Include="LibraryItemPanel.cs">
+    <Compile Include="Util\ItemManager.cs" />
+    <Compile Include="UI\LibraryItemPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="LibraryPanel.cs">
+    <Compile Include="UI\LibraryPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="LibraryWindow.cs">
+    <Compile Include="UI\LibraryWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LibraryWindow.Designer.cs">
+    <Compile Include="UI\LibraryWindow.Designer.cs">
       <DependentUpon>LibraryWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainAppWindow.cs">
+    <Compile Include="UI\MainAppWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainAppWindow.Designer.cs">
+    <Compile Include="UI\MainAppWindow.Designer.cs">
       <DependentUpon>MainAppWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainMenu.cs">
+    <Compile Include="UI\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainMenu.Designer.cs">
+    <Compile Include="UI\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Item.cs" />
-    <Compile Include="ItemFactory.cs" />
-    <Compile Include="DataUpdater.cs" />
-    <Compile Include="PickUpCounterPanel.cs">
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ItemFactory.cs" />
+    <Compile Include="Util\DataUpdater.cs" />
+    <Compile Include="UI\PickUpCounterPanel.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recipe.cs" />
-    <Compile Include="ResultPanel.cs">
+    <Compile Include="Model\Recipe.cs" />
+    <Compile Include="UI\ResultPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="SinglePickUpPanel.cs">
+    <Compile Include="UI\SinglePickUpPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="TreeNodePanel.cs">
+    <Compile Include="UI\TreeNodePanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="GenerationResultWindow.resx">
+    <EmbeddedResource Include="UI\GenerationResultWindow.resx">
       <DependentUpon>GenerationResultWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LibraryWindow.resx">
+    <EmbeddedResource Include="UI\LibraryWindow.resx">
       <DependentUpon>LibraryWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainAppWindow.resx">
+    <EmbeddedResource Include="UI\MainAppWindow.resx">
       <DependentUpon>MainAppWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
+    <EmbeddedResource Include="UI\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -148,5 +148,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

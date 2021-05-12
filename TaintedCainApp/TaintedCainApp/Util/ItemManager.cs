@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.Util
 {
     public class ItemManager
     {

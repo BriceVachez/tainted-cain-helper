@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using TaintedCainApp.Model;
 
-namespace TaintedCainApp
+namespace TaintedCainApp.UI
 {
     public partial class GenerationResultWindow : Form
     {

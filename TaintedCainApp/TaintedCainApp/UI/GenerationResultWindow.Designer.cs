@@ -1,4 +1,4 @@
-﻿namespace TaintedCainApp
+﻿namespace TaintedCainApp.UI
 {
     partial class GenerationResultWindow
     {

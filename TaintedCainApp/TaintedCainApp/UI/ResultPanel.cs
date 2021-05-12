@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.UI
 {
     public class ResultPanel : Panel
     {

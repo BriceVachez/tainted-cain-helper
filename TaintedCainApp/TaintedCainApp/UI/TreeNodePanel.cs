@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 using System.Windows.Forms;
 using System.Drawing;
+using TaintedCainApp.Model;
 
-namespace TaintedCainApp
+namespace TaintedCainApp.UI
 {
     public class TreeNodePanel : Panel
     {

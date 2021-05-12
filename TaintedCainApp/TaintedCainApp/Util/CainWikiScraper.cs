@@ -8,7 +8,9 @@ using System.Text.RegularExpressions;
 
 using System.Threading.Tasks;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.Util
 {
     public class CainWikiScraper
     {

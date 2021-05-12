@@ -1,4 +1,4 @@
-﻿namespace TaintedCainApp
+﻿namespace TaintedCainApp.UI
 {
     partial class LibraryWindow
     {
@@ -38,7 +38,7 @@
             this.sortTypeChosingPanel = new System.Windows.Forms.Panel();
             this.lastPage = new System.Windows.Forms.Button();
             this.firstPage = new System.Windows.Forms.Button();
-            this.showcasePanel = new TaintedCainApp.LibraryPanel();
+            this.showcasePanel = new LibraryPanel();
             this.SuspendLayout();
             // 
             // leaveButton

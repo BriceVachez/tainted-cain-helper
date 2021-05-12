@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace TaintedCainApp
+namespace TaintedCainApp.Model
 {
     public enum PickUp
     {
@@ -64,11 +62,6 @@ namespace TaintedCainApp
         {
             components.TryGetValue(pickUp, out var occurences);
             components[pickUp] = occurences + 1;
-        }
-
-        public Recipe CopyRecipe()
-        {
-            return new Recipe(this.components);
         }
 
         public bool IsValid()

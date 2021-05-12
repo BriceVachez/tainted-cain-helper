@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
+using System.IO;
 
 namespace TaintedCainApp
 {
@@ -17,11 +16,11 @@ namespace TaintedCainApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            DataUpdater.GenerateItemsFromWiki();
-            ItemManager.ReadItemsFromFile();
-            ItemManager.DisplayAllItems();
-            
-            Application.Run(new MainWindow());
+            Directory.CreateDirectory("../data/Images/Items");
+            Directory.CreateDirectory("../data/Images/Pickups");
+
+            UI.MainMenu mainMenu = new UI.MainMenu();
+            Application.Run(mainMenu);
         }
     }
 }

@@ -4,7 +4,9 @@ using Newtonsoft.Json;
 
 using System.IO;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.Util
 {
     public class DataUpdater
     {
@@ -26,10 +28,17 @@ namespace TaintedCainApp
             GenerateItemFile(items);
         }
 
-        private static void GenerateItemFile(List<Item> items)
+        public static void GeneratePickupImages()
+        {
+            CainWikiScraper.GeneratePickupImages(urls[0]);
+        }
+
+        private static void GenerateItemFile(
+            List<Item> items, 
+            String path = "../data/items.json")
         {
             String json = JsonConvert.SerializeObject(items, Formatting.Indented);
-            File.WriteAllText("../../../../data/items.json", json);
+            File.WriteAllText(path, json);
         }
     }
 }

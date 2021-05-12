@@ -85,7 +85,7 @@ namespace TaintedCainApp.UI
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+
             }
 
             if(root.IsLeaf())

@@ -37,7 +37,6 @@ namespace TaintedCainApp.Util
             HtmlNodeCollection itemsOnPage = recipeWebPage.SelectNodes(
                 ".//table[contains(@class, 'sortable')]/tbody/tr[position()>1]"
                 );
-            Console.WriteLine("Retrieved : " + itemsOnPage.Count);
 
             foreach (HtmlNode item in itemsOnPage)
             {
@@ -73,7 +72,7 @@ namespace TaintedCainApp.Util
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+
                 }
             }
         }
@@ -184,7 +183,7 @@ namespace TaintedCainApp.Util
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+
             }
         }
         #endregion

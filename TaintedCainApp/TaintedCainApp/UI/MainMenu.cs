@@ -36,11 +36,6 @@ namespace TaintedCainApp.UI
 
         private void updateDataButton_Click(object sender, EventArgs e)
         {
-            if(state == State.LoadingDataState)
-            {
-                Console.WriteLine("Loading data.");
-                return;
-            }
             state = State.UpdatingDataState;
             DataUpdater.GenerateItemsFromWiki();
             DataUpdater.GeneratePickupImages();
@@ -49,22 +44,24 @@ namespace TaintedCainApp.UI
 
         private void launchApplication_Click(object sender, EventArgs e)
         {
-            if(state == State.UpdatingDataState)
-            {
-                Console.WriteLine("Currently updating data.");
-                return;
-            }
             numberOfItems = ItemManager.GetTotalNumberOfItems();
             if(numberOfItems == 0)
             {
-                Console.WriteLine("No items found.");
+                MessageBox.Show("No items to load. Update data first.");
                 return;
             }
 
             state = State.LoadingDataState;
             Thread displayThread = new Thread(new ThreadStart(DisplayLoadingState));
             displayThread.Start();
-            ItemManager.ReadItemsFromFile();
+            try
+            {
+                ItemManager.ReadItemsFromFile();
+            } catch(Exception)
+            {
+                MessageBox.Show("An internal error occured. Try reloading data or post a message on GitHub.");
+                return;
+            }
             state = State.ReadyState;
             MainAppWindow mainWindow = new MainAppWindow(this);
             mainWindow.Show();

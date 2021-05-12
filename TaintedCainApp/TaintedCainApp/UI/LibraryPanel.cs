@@ -66,7 +66,6 @@ namespace TaintedCainApp.UI
                     SortByName();
                     break;
                 default:
-                    Console.WriteLine("Not implemented yet.");
                     break;
             }
         }
@@ -169,7 +168,7 @@ namespace TaintedCainApp.UI
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                
             }
 
             int maxIndex = Math.Min(

@@ -64,11 +64,6 @@ namespace TaintedCainApp.Model
             components[pickUp] = occurences + 1;
         }
 
-        public Recipe CopyRecipe()
-        {
-            return new Recipe(this.components);
-        }
-
         public bool IsValid()
         {
             int numberOfPickUps = 0;

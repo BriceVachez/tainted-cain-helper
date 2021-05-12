@@ -21,7 +21,7 @@ namespace TaintedCainApp.Util
             }
             catch (Exception e)
             {
-                Console.WriteLine("No item file.");
+
                 throw (e);
             }
 
@@ -52,14 +52,6 @@ namespace TaintedCainApp.Util
             }
         }
 
-        public static void DisplayAllItems()
-        {
-            foreach (Item item in items)
-            {
-                Console.WriteLine(item.ToString());
-            }
-        }
-
         public static int GetTotalNumberOfItems(String path = "../../../../data/items.json")
         {
             String json;
@@ -69,7 +61,6 @@ namespace TaintedCainApp.Util
             }
             catch (Exception)
             {
-                Console.WriteLine("No item file.");
                 return 0;
             }
 
@@ -85,13 +76,6 @@ namespace TaintedCainApp.Util
         public static int GetCurrentNumberOfItems()
         {
             return items.Count;
-        }
-
-        public static int RemoveItems()
-        {
-            int removed = items.Count;
-            items.Clear();
-            return removed;
         }
 
         public static int GetMaximumItemQuality()

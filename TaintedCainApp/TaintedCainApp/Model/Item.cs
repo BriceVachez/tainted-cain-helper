@@ -43,10 +43,6 @@ namespace TaintedCainApp.Model
         #endregion
 
         #region Public Methods
-        public void AddRecipe(Recipe _newRecipe)
-        {
-            recipes.Add(_newRecipe);
-        }
         #endregion
 
         #region Override

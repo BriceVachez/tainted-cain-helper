@@ -111,8 +111,38 @@ namespace TaintedCainApp
                     Controls.Add(toAdd);
                 }
                 location += 96;
-
             }
+        }
+        public Tuple<bool, bool> GetButtonActivationState()
+        {
+            return new Tuple<bool, bool>(
+                currentPage != 0,
+                currentPage != maxPage
+                );
+        }
+
+        public void FirstPage()
+        {
+            currentPage = 0;
+            Display();
+        }
+
+        public void PreviousPage()
+        {
+            currentPage -= 1;
+            Display();
+        }
+
+        public void NextPage()
+        {
+            currentPage += 1;
+            Display();
+        }
+
+        public void LastPage()
+        {
+            currentPage = maxPage;
+            Display();
         }
     }
 }

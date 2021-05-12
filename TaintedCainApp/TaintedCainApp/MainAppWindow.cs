@@ -53,6 +53,17 @@ namespace TaintedCainApp
             {
                 Console.WriteLine(pickUp.Key.ToString() + " : " + pickUp.Value);
             }
+
+            ItemNode tree = ItemManager.GenerateAllRecipes(
+                ItemManager.Items,
+                pickUps,
+                false);
+
+            using (GenerationResultWindow resultWindow = 
+                new GenerationResultWindow(tree))
+            {
+                resultWindow.ShowDialog(this);
+            }
         }
 
 

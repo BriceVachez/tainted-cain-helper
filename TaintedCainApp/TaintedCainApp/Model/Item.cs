@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace TaintedCainApp
+namespace TaintedCainApp.Model
 {
     public class Item
     {
@@ -23,6 +21,9 @@ namespace TaintedCainApp
 
         private List<Recipe> recipes;
         public List<Recipe> Recipes { get => recipes; }
+
+        private bool isMarked;
+        public bool IsMarked { get => isMarked; set => isMarked = value; }
         #endregion
 
         #region Constructors
@@ -37,6 +38,7 @@ namespace TaintedCainApp
             quality = _quality;
             isActiveItem = _isActiveItem;
             recipes = _recipes;
+            isMarked = false;
         }
         #endregion
 

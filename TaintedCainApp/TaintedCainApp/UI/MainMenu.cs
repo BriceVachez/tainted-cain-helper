@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace TaintedCainApp
+using TaintedCainApp.Util;
+
+namespace TaintedCainApp.UI
 {
     public partial class MainMenu : Form
     {

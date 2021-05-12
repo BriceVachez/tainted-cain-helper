@@ -1,4 +1,4 @@
-﻿namespace TaintedCainApp
+﻿namespace TaintedCainApp.UI
 {
     partial class MainAppWindow
     {
@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainAppWindow));
             this.library = new System.Windows.Forms.Button();
-            this.pickUpCounterPanel = new TaintedCainApp.PickUpCounterPanel();
+            this.pickUpCounterPanel = new PickUpCounterPanel();
             this.generateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 

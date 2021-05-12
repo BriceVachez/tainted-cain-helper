@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using TaintedCainApp.UI;
+
 namespace TaintedCainApp
 {
     static class Program
@@ -17,7 +19,7 @@ namespace TaintedCainApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            MainMenu mainMenu = new MainMenu();
+            UI.MainMenu mainMenu = new UI.MainMenu();
             Application.Run(mainMenu);
         }
     }

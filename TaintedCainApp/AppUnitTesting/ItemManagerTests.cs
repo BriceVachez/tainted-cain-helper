@@ -120,5 +120,43 @@ namespace AppUnitTesting
                 ItemManager.GetTotalNumberOfItems("../../../../../data/test/item.json"));
         }
         #endregion
+
+        #region GenerateAllRecipes()
+        [TestMethod]
+        public void T_GenerateAllRecipes_NoItemAvailable()
+        {
+            Dictionary<PickUp, int> pickUps = new Dictionary<PickUp, int>();
+
+            ItemManager.ReadItemsFromFile("../../../../../data/test/items.json");
+            ItemNode node = ItemManager.GenerateAllRecipes(
+                ItemManager.Items,
+                pickUps
+                );
+
+            int expectedCount = 0;
+            Assert.AreEqual(expectedCount, node.CountLeaf());
+        }
+
+        [TestMethod]
+        public void T_GenerateAllRecipes_OneItemAvailable()
+        {
+            Dictionary<PickUp, int> pickUps = new Dictionary<PickUp, int>();
+            pickUps.Add(PickUp.RedHeart, 1);
+            pickUps.Add(PickUp.Key, 1);
+            pickUps.Add(PickUp.Bomb, 2);
+            pickUps.Add(PickUp.SoulHeart, 1);
+            pickUps.Add(PickUp.Nickel, 2);
+            pickUps.Add(PickUp.Card, 1);
+
+            ItemManager.ReadItemsFromFile("../../../../../data/test/items.json");
+            ItemNode node = ItemManager.GenerateAllRecipes(
+                ItemManager.Items,
+                pickUps
+                );
+
+            int expectedCount = 1;
+            Assert.AreEqual(expectedCount, node.CountLeaf());
+        }
+        #endregion
     }
 }

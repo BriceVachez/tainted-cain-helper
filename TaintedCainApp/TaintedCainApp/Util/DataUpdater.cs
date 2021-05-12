@@ -4,7 +4,9 @@ using Newtonsoft.Json;
 
 using System.IO;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.Util
 {
     public class DataUpdater
     {

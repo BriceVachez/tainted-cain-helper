@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+namespace TaintedCainApp.Util
 {
     public class ItemManager
     {
@@ -20,7 +22,7 @@ namespace TaintedCainApp
             catch (Exception e)
             {
                 Console.WriteLine("No item file.");
-                throw(e);
+                throw (e);
             }
 
             dynamic result = JsonConvert.DeserializeObject(json);
@@ -95,11 +97,91 @@ namespace TaintedCainApp
         public static int GetMaximumItemQuality()
         {
             int maxQuality = 0;
-            foreach(Item item in items)
+            foreach (Item item in items)
             {
                 maxQuality = Math.Max(maxQuality, item.Quality);
             }
             return maxQuality;
+        }
+
+        public static ItemNode GenerateAllRecipes(
+            List<Item> availableItems,
+            Dictionary<PickUp, int> pickUps,
+            bool includeDuplicate=false)
+        {
+            UnmarkAllItems();
+            ItemNode root = new ItemNode(null, 0, null);
+            GenerateTree(availableItems, pickUps, root, true, includeDuplicate);
+            return root;
+        }
+
+        private static void GenerateTree(List<Item> availableItems,
+            Dictionary<PickUp, int> pickUps,
+            ItemNode currentParent,
+            bool isFirstLayer,
+            bool includeDuplicate)
+        {
+            foreach (Item item in availableItems)
+            {
+                if(!includeDuplicate && item.IsMarked)
+                {
+                    continue;
+                }
+
+                foreach (Recipe recipe in item.Recipes)
+                {
+                    if (recipe.IsRecipeFeasible(pickUps))
+                    {
+                        ItemNode child = new ItemNode(
+                            currentParent,
+                            item.ItemId,
+                            recipe);
+
+                        RemovePickUpsFromRecipe(pickUps, recipe);
+
+                        item.IsMarked = true;
+                        GenerateTree(availableItems, pickUps, child, false, includeDuplicate);
+                        item.IsMarked = false;
+
+                        AddPickUpsFromRecipe(pickUps, recipe);
+                        currentParent.AddChild(child);
+                    }
+                }
+
+                if(isFirstLayer)
+                {
+                    item.IsMarked = true;
+                }
+            }
+        }
+
+        private static void RemovePickUpsFromRecipe(
+            Dictionary<PickUp, int> pickUps,
+            Recipe recipe)
+        {
+            foreach(KeyValuePair<PickUp, int> component in recipe.Components)
+            {
+                pickUps[component.Key] -= component.Value;
+            }
+        }
+
+        private static void AddPickUpsFromRecipe(
+            Dictionary<PickUp, int> pickUps,
+            Recipe recipe)
+        {
+            foreach (KeyValuePair<PickUp, int> component in recipe.Components)
+            {
+                pickUps[component.Key] += component.Value;
+            }
+
+        }
+
+        private static void UnmarkAllItems()
+        {
+            foreach(Item item in items)
+            {
+                item.IsMarked = false;
+            }
         }
     }
 }

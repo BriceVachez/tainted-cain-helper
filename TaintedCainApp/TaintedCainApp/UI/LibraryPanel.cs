@@ -4,7 +4,11 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+
+using TaintedCainApp.Util;
+
+namespace TaintedCainApp.UI
 {
     public class LibraryPanel : Panel
     {

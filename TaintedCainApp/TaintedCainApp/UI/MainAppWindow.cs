@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TaintedCainApp
+using TaintedCainApp.Model;
+using TaintedCainApp.Util;
+
+namespace TaintedCainApp.UI
 {
     public partial class MainAppWindow : Form
     {
@@ -49,9 +46,16 @@ namespace TaintedCainApp
         private void generateButton_Click(object sender, EventArgs e)
         {
             Dictionary<PickUp, int> pickUps = pickUpCounterPanel.GetAllPickUps();
-            foreach (KeyValuePair<PickUp, int> pickUp in pickUps)
+
+            ItemNode tree = ItemManager.GenerateAllRecipes(
+                ItemManager.Items,
+                pickUps,
+                false);
+
+            using (GenerationResultWindow resultWindow = 
+                new GenerationResultWindow(tree))
             {
-                Console.WriteLine(pickUp.Key.ToString() + " : " + pickUp.Value);
+                resultWindow.ShowDialog(this);
             }
         }
 

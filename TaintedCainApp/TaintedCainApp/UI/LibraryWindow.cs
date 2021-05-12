@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TaintedCainApp
+namespace TaintedCainApp.UI
 {
     public partial class LibraryWindow : Form
     {

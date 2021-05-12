@@ -350,3 +350,5 @@ MigrationBackup/
 .ionide/
 Functionnalities.xlsx
 data/
+TaintedCainApp/AppUnitTesting/RecipeTests.cs
+TaintedCainApp/AppUnitTesting/
